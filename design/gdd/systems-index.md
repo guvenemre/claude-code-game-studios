@@ -25,8 +25,8 @@ JetRun is a 2D endless runner mini-game embedded in an existing React edtech pla
 | 6 | Socratic Step Sequencer | Gameplay | MVP | Designed | design/gdd/socratic-step-sequencer.md | Question Data Layer |
 | 7 | Lives & Score System | Gameplay | MVP | Designed | design/gdd/lives-and-score-system.md | State Machine |
 | 8 | Math Gate System | Gameplay | MVP | Designed | design/gdd/math-gate-system.md | Runner Engine, Step Sequencer, Lives & Score |
-| 9 | Score Card & Win State | UI | MVP | Not Started | — | Lives & Score, State Machine |
-| 10 | Standard Selector & Game Route | UI | MVP | Not Started | — | Question Data Layer, Auth Bridge |
+| 9 | Score Card & Win State | UI | MVP | Designed | design/gdd/score-card-and-win-state.md | Lives & Score, State Machine |
+| 10 | Standard Selector & Game Route | UI | MVP | Designed | design/gdd/standard-selector-and-game-route.md | Question Data Layer, Auth Bridge |
 | 11 | Platform Auth Bridge *(inferred)* | Persistence | v1.0 | Not Started | — | — |
 | 12 | Outcome Tracking Bridge | Persistence | v1.0 | Not Started | — | Auth Bridge, Lives & Score, Step Sequencer |
 | 13 | Cosmetic Skin System | Progression | v1.0 | Not Started | — | Auth Bridge, Lives & Score |
@@ -147,10 +147,10 @@ None found. The dependency graph is a clean DAG (directed acyclic graph).
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 16 |
-| Design docs started | 8 |
+| Design docs started | 10 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
-| MVP systems designed | 7 / 10 |
+| MVP systems designed | 10 / 10 |
 | v1.0 systems designed | 0 / 5 |
 
 ---
