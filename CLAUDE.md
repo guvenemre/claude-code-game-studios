@@ -5,22 +5,21 @@ Each agent owns a specific domain, enforcing separation of concerns and quality.
 
 ## Technology Stack
 
-- **Engine**: [CHOOSE: Godot 4 / Unity / Unreal Engine 5]
-- **Language**: [CHOOSE: GDScript / C# / C++ / Blueprint]
+- **Engine**: React 19 + HTML5 Canvas (no game engine — embedded in edukado.ai SPA)
+- **Language**: TypeScript (strict mode)
+- **Rendering**: HTML5 Canvas 2D + requestAnimationFrame
+- **UI Layer**: React components (overlays on canvas for gates, score card, selector)
+- **Build System**: Vite (existing platform toolchain)
 - **Version Control**: Git with trunk-based development
-- **Build System**: [SPECIFY after choosing engine]
-- **Asset Pipeline**: [SPECIFY after choosing engine]
+- **Asset Pipeline**: Static imports via Vite; sprites as PNG, audio as MP3/OGG
 
-> **Note**: Engine-specialist agents exist for Godot, Unity, and Unreal with
-> dedicated sub-specialists. Use the set matching your engine.
+> **Note**: This project does NOT use a traditional game engine. The game runs as
+> a React component inside the edukado.ai platform. Engine-specialist agents
+> (Godot, Unity, Unreal) are not applicable.
 
 ## Project Structure
 
 @.claude/docs/directory-structure.md
-
-## Engine Version Reference
-
-@docs/engine-reference/godot/VERSION.md
 
 ## Technical Preferences
 
