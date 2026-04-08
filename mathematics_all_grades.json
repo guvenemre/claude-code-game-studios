@@ -1,0 +1,2744 @@
+{
+  "ROOT": {
+    "description": "Mathematics Standards",
+    "M": {
+      "description": "Mathematics",
+      "M.1": {
+        "description": "Grade 1 Mathematics",
+        "M.1.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.1.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.B": { 
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.1.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and compare whole numbers, the relative position and magnitude of whole numbers, and relationships within the numeration system related to place value. The student is expected to:",
+          "M.1.2.A": {
+            "description": "recognize instantly the quantity of structured arrangements",
+            "parents": ["M.K.2.D"],
+            "children": []
+          },
+          "M.1.2.B": {
+            "description": "use concrete and pictorial models to compose and decompose numbers up to 120 in more than one way as so many hundreds, so many tens, and so many ones",
+            "parents": [],
+            "children": ["M.2.2.A"]
+          },
+          "M.1.2.C": {
+            "description": "use objects, pictures, and expanded and standard forms to represent numbers up to 120",
+            "parents": [],
+            "children": []
+          },
+          "M.1.2.D": {
+            "description": "generate a number that is greater than or less than a given whole number up to 120",
+            "children": ["M.2.2.C"],
+            "parents": ["M.K.2.F"]
+          },
+          "M.1.2.E": {
+            "description": "use place value to compare whole numbers up to 120 using comparative language",
+            "parents": ["M.K.2.G","M.K.2.H"],
+            "children": ["M.2.2.D"]
+          },
+          "M.1.2.F": {
+            "description": "order whole numbers up to 120 using place value and open number lines",
+            "parents": [],
+            "children": ["M.2.2.D"]
+          },
+          "M.1.2.G": {
+            "description": "represent the comparison of two numbers to 100 using the symbols >, <, or =",
+            "parents": [],
+            "children": ["M.2.2.D","M.2.2.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.3": {
+          "description": "Number and operations. The student applies mathematical process standards to develop and use strategies for whole number addition and subtraction computations in order to solve problems. The student is expected to:",
+          "M.1.3.A": {
+            "description": "use concrete and pictorial models to determine the sum of a multiple of 10 and a one-digit number in problems up to 99",
+            "parents": [],
+            "children": ["M.2.4.C"]
+          },
+          "M.1.3.B": {
+            "description": "use objects and pictorial models to solve word problems involving joining, separating, and comparing sets within 20 and unknowns as any one of the terms in the problem such as 2 + 4 = [ ]; 3 + [ ] = 7; and 5 = [ ] - 3",
+            "parents": ["M.K.3.A"],
+            "children": ["M.3.4.A"]
+          },
+          "M.1.3.C": {
+            "description": "compose 10 with two or more addends with and without concrete objects",
+            "parents": ["M.K.3.B"],
+            "children": ["M.3.4.A"]
+          },
+          "M.1.3.D": {
+            "description": "apply basic fact strategies to add and subtract within 20, including making 10 and decomposing a number leading to a 10",
+            "parents": [],
+            "children": ["M.2.4.A"]
+          },
+          "M.1.3.E": {
+            "description": "explain strategies used to solve addition and subtraction problems up to 20 using spoken words, objects, pictorial models, and number sentences",
+            "parents": ["M.K.3.C"],
+            "children": [ "M.2.4.B"]
+          },
+          "M.1.3.F": {
+            "description": "generate and solve problem situations when given a number sentence involving addition or subtraction of numbers within 20",
+            "parents": [],
+            "children": ["M.2.4.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.4": {
+          "description": "Number and operations. The student applies mathematical process standards to identify coins, their values, and the relationships among them in order to recognize the need for monetary transactions. The student is expected to:",
+          "M.1.4.A": {
+            "description": "identify U.S. coins, including pennies, nickels, dimes, and quarters, by value and describe the relationships among them",
+            "parents": [],
+            "children": []
+          },
+          "M.1.4.B": {
+            "description": "write a number with the cent symbol to describe the value of a coin",
+            "parents": [],
+            "children": ["M.2.5.B"]
+          },
+          "M.1.4.C": {
+            "description": "use relationships to count by twos, fives, and tens to determine the value of a collection of pennies, nickels, and/or dimes",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.5": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to identify and apply number patterns within properties of numbers and operations in order to describe relationships. The student is expected to:",
+          "M.1.5.A": {
+            "description": "recite numbers forward and backward from any given number between 1 and 120",
+            "parents": [],
+            "children": []
+          },
+          "M.1.5.B": {
+            "description": "skip count by twos, fives, and tens to determine the total number of objects up to 120 in a set",
+            "parents": [],
+            "children": ["M.2.7.A"]
+          },
+          "M.1.5.C": {
+            "description": "use relationships to determine the number that is 10 more and 10 less than a given number up to 120",
+            "parents": [],
+            "children": ["M.2.7.B"]
+          },
+          "M.1.5.D": {
+            "description": "represent word problems involving addition and subtraction of whole numbers up to 20 using concrete and pictorial models and number sentences",
+            "parents": [],
+            "children": ["M.2.7.C"]
+          },
+          "M.1.5.E": {
+            "description": "understand that the equal sign represents a relationship where expressions on each side of the equal sign represent the same value(s)",
+            "parents": [],
+            "children": ["M.2.7.C"]
+          },
+          "M.1.5.F": {
+            "description": "determine the unknown whole number in an addition or subtraction equation when the unknown may be any one of the three or four terms in the equation",
+            "parents": [],
+            "children": ["M.2.7.C"]
+          },
+          "M.1.5.G": {
+            "description": "apply properties of operations to add and subtract two or three numbers",
+            "parents": [],
+            "children": ["M.3.5.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.6": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to analyze attributes of two-dimensional shapes and three-dimensional solids to develop generalizations about their properties. The student is expected to:",
+          "M.1.6.A": {
+            "description": "classify and sort regular and irregular two-dimensional shapes based on attributes using informal geometric language",
+            "parents": ["M.K.6.E"],
+            "children": ["M.2.8.C"]
+          },
+          "M.1.6.B": {
+            "description": "distinguish between attributes that define a two-dimensional or three-dimensional figure and attributes that do not define the shape",
+            "parents": [],
+            "children": []
+          },
+          "M.1.6.C": {
+            "description": "create two-dimensional figures, including circles, triangles, rectangles, and squares, as special rectangles, rhombuses, and hexagons",
+            "parents": ["M.K.6.A"],
+            "children": ["M.2.8.A"]
+          },
+          "M.1.6.D": {
+            "description": "identify two-dimensional shapes, including circles, triangles, rectangles, and squares, as special rectangles, rhombuses, and hexagons and describe their attributes using formal geometric language",
+            "parents": ["M.K.6.D"],
+            "children": ["M.2.8.A"]
+          },
+          "M.1.6.E": {
+            "description": "identify three-dimensional solids, including spheres, cones, cylinders, rectangular prisms (including cubes), and triangular prisms, and describe their attributes using formal geometric language",
+            "parents": [],
+            "children": []
+          },
+          "M.1.6.F": {
+            "description": "compose two-dimensional shapes by joining two, three, or four figures to produce a target shape in more than one way if possible",
+            "parents": ["M.K.6.F"],
+            "children": ["M.2.8.D"]
+          },
+          "M.1.6.G": {
+            "description": "partition two-dimensional figures into two and four fair shares or equal parts and describe the parts using words",
+            "parents": [],
+            "children": ["M.3.6.E"]
+          },
+          "M.1.6.H": {
+            "description": "identify examples and non-examples of halves and fourths",
+            "parents": [],
+            "children": ["M.3.6.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.7": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to select and use units to describe length and time. The student is expected to:",
+          "M.1.7.A": {
+            "description": "use measuring tools to measure the length of objects to reinforce the continuous nature of linear measurement",
+            "parents": ["M.K.7.A"],
+            "children": ["M.2.9.D"]
+          },
+          "M.1.7.B": {
+            "description": "illustrate that the length of an object is the number of same-size units of length that, when laid end-to-end with no gaps or overlaps, reach from one end of the object to the other",
+            "parents": [],
+            "children": ["M.2.9.A"]
+          },
+          "M.1.7.C": {
+            "description": "measure the same object/distance with units of two different lengths and describe how and why the measurements differ",
+            "parents": [],
+            "children": ["M.2.9.C"]
+          },
+          "M.1.7.D": {
+            "description": "describe a length to the nearest whole unit using a number and a unit",
+            "parents": [],
+            "children": ["M.2.9.A"]
+          },
+          "M.1.7.E": {
+            "description": "tell time to the hour and half hour using analog and digital clocks",
+            "parents": [],
+            "children": ["M.2.9.G"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.8": {
+          "description": "Data analysis. The student applies mathematical process standards to organize data to make it useful for interpreting information and solving problems. The student is expected to:",
+          "M.1.8.A": {
+            "description": "collect, sort, and organize data in up to three categories using models/representations such as tally marks or T-charts",
+            "parents": ["M.K.8.A"],
+            "children": []
+          },
+          "M.1.8.B": {
+            "description": "use data to create picture and bar-type graphs",
+            "parents": ["M.K.8.B"],
+            "children": ["M.2.10.B"]
+          },
+          "M.1.8.C": {
+            "description": "draw conclusions and generate and answer questions using information from picture and bar-type graphs",
+            "parents": ["M.K.8.C"],
+            "children": ["M.2.10.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.1.9": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.1.9.A": {
+            "description": "define money earned as income",
+            "parents": ["M.K.9.A"],
+            "children": ["M.3.9.A"]
+          },
+          "M.1.9.B": {
+            "description": "identify income as a means of obtaining goods and services, oftentimes making choices between wants and needs",
+            "parents": ["M.K.9.D"],
+            "children": ["M.5.10.B"]
+          },
+          "M.1.9.C": {
+            "description": "distinguish between spending and saving",
+            "parents": [],
+            "children": ["M.2.11.A"]
+          },
+          "M.1.9.D": {
+            "description": "consider charitable giving",
+            "parents": [],
+            "children": ["M.3.9.F"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.2": {
+        "description": "Grade 2 Mathematics",
+        "M.2.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.2.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.2.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.2": {
+          "description": "Number and operations. The student applies mathematical process standards to understand how to represent and compare whole numbers, the relative position and magnitude of whole numbers, and relationships within the numeration system related to place value. The student is expected to:",
+          "M.2.2.A": {
+            "description": "use concrete and pictorial models to compose and decompose numbers up to 1,200 in more than one way as a sum of so many thousands, hundreds, tens, and ones",
+            "parents": ["M.1.2.B"],
+            "children": ["M.3.2.A"]
+          },
+          "M.2.2.B": {
+            "description": "use standard, word, and expanded forms to represent numbers up to 1,200",
+            "parents": [],
+            "children": ["M.3.2.A"]
+          },
+          "M.2.2.C": {
+            "description": "generate a number that is greater than or less than a given whole number up to 1,200",
+            "parents": ["M.1.2.D"],
+            "children": []
+          },
+          "M.2.2.D": {
+            "description": "use place value to compare and order whole numbers up to 1,200 using comparative language, numbers, and symbols (>, <, or =)",
+            "parents": ["M.1.2.E","M.1.2.F","M.1.2.G"],
+            "children": ["M.3.2.D"]
+          },
+          "M.2.2.E": {
+            "description": "locate the position of a given whole number on an open number line",
+            "parents": [],
+            "children": ["M.3.2.C"]
+          },
+          "M.2.2.F": {
+            "description": "name the whole number that corresponds to a specific point on a number line",
+            "parents": [],
+            "children": ["M.3.3.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.3": {
+          "description": "Number and operations. The student applies mathematical process standards to recognize and represent fractional units and communicates how they are used to name parts of a whole. The student is expected to:",
+          "M.2.3.A": {
+            "description": "partition objects into equal parts and name the parts, including halves, fourths, and eighths, using words",
+            "parents": [],
+            "children": ["M.3.3.A"]
+          },
+          "M.2.3.B": {
+            "description": "explain that the more fractional parts used to make a whole, the smaller the part; and the fewer the fractional parts, the larger the part",
+            "parents": [],
+            "children": ["M.3.3.C"]
+          },
+          "M.2.3.C": {
+            "description": "use concrete models to count fractional parts beyond one whole using words and recognize how many parts it takes to equal one whole",
+            "parents": [],
+            "children": ["M.3.3.E","M.3.3.A"]
+          },
+          "M.2.3.D": {
+            "description": "identify examples and non-examples of halves, fourths, and eighths",
+            "parents": [],
+            "children": ["M.3.3.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.4": {
+          "description": "Number and operations. The student applies mathematical process standards to develop and use strategies and methods for whole number computations in order to solve addition and subtraction problems with efficiency and accuracy. The student is expected to:",
+          "M.2.4.A": {
+            "description": "recall basic facts to add and subtract within 20 with automaticity",
+            "parents": ["M.1.3.D"],
+            "children": ["M.3.4.A"]
+          },
+          "M.2.4.B": {
+            "description": "add up to four two-digit numbers and subtract two-digit numbers using mental strategies and algorithms based on knowledge of place value and properties of operations",
+            "parents": ["M.1.3.E"],
+            "children": ["M.3.4.A"]
+          },
+          "M.2.4.C": {
+            "description": "solve one-step and multi-step word problems involving addition and subtraction within 1,000 using a variety of strategies based on place value, including algorithms",
+            "parents": ["M.1.3.A"],
+            "children": ["M.3.4.A"]
+          },
+          "M.2.4.D": {
+            "description": "generate and solve problem situations for a given mathematical number sentence involving addition and subtraction of whole numbers within 1,000",
+            "parents": ["M.1.3.F"],
+            "children": ["M.3.4.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.5": {
+          "description": "Number and operations. The student applies mathematical process standards to determine the value of coins in order to solve monetary transactions. The student is expected to:",
+          "M.2.5.A": {
+            "description": "determine the value of a collection of coins up to one dollar",
+            "parents": [],
+            "children": []
+          },
+          "M.2.5.B": {
+            "description": "use the cent symbol, dollar sign, and the decimal point to name the value of a collection of coins",
+            "parents": ["M.1.4.B"],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.6": {
+          "description": "Number and operations. The student applies mathematical process standards to connect repeated addition and subtraction to multiplication and division situations that involve equal groupings and shares. The student is expected to:",
+          "M.2.6.A": {
+            "description": "model, create, and describe contextual multiplication situations in which equivalent sets of concrete objects are joined",
+            "parents": [],
+            "children": ["M.3.4.D"]
+          },
+          "M.2.6.B": {
+            "description": "model, create, and describe contextual division situations in which a set of concrete objects is separated into equivalent sets",
+            "parents": [],
+            "children": ["M.3.4.H"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.7": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to identify and apply number patterns within properties of numbers and operations in order to describe relationships. The student is expected to:",
+          "M.2.7.A": {
+            "description": "determine whether a number up to 40 is even or odd using pairings of objects to represent the number",
+            "parents": ["M.1.5.B"],
+            "children": ["M.5.4.A"]
+          },
+          "M.2.7.B": {
+            "description": "use an understanding of place value to determine the number that is 10 or 100 more or less than a given number up to 1,200",
+            "parents": ["M.1.5.C"],
+            "children": []
+          },
+          "M.2.7.C": {
+            "description": "represent and solve addition and subtraction word problems where unknowns may be any one of the terms in the problem",
+            "parents": ["M.1.5.D","M.1.5.E","M.1.5.F"],
+            "children": ["M.3.5.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.8": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to analyze attributes of two-dimensional shapes and three-dimensional solids to develop generalizations about their properties. The student is expected to:",
+          "M.2.8.A": {
+            "description": "create two-dimensional shapes based on given attributes, including number of sides and vertices",
+            "parents": ["M.1.6.C","M.1.6.D"],
+            "children": ["M.3.6.B"]
+          },
+          "M.2.8.B": {
+            "description": "classify and sort three-dimensional solids, including spheres, cones, cylinders, rectangular prisms (including cubes as special rectangular prisms), and triangular prisms, based on attributes using formal geometric language",
+            "parents": [],
+            "children": ["M.3.6.A"]
+          },
+          "M.2.8.C": {
+            "description": "classify and sort polygons with 12 or fewer sides according to attributes, including identifying the number of sides and number of vertices",
+            "parents": ["M.1.6.A"],
+            "children": ["M.3.6.A"]
+          },
+          "M.2.8.D": {
+            "description": "compose two-dimensional shapes and three-dimensional solids with given properties or attributes",
+            "parents": [],
+            "children": []
+          },
+          "M.2.8.E": {
+            "description": "decompose two-dimensional shapes such as cutting out a square from a rectangle, dividing a shape in half, or partitioning a rectangle into identical triangles and identify the resulting geometric parts",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.9": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to select and use units to describe length, area, and time. The student is expected to:",
+          "M.2.9.A": {
+            "description": "find the length of objects using concrete models for standard units of length",
+            "parents": ["M.1.7.B","M.1.7.D"],
+            "children": ["M.4.8.C"]
+          },
+          "M.2.9.B": {
+            "description": "describe the inverse relationship between the size of the unit and the number of units needed to equal the length of an object",
+            "parents": ["M.1.7.C"],
+            "children": ["M.4.8.C"]
+          },
+          "M.2.9.C": {
+            "description": "represent whole numbers as distances from any given location on a number line",
+            "parents": [],
+            "children": ["M.3.7.A"]
+          },
+          "M.2.9.D": {
+            "description": "determine the length of an object to the nearest marked unit using rulers, yardsticks, meter sticks, or measuring tapes",
+            "parents": ["M.1.7.A"],
+            "children": ["M.4.8.C"]
+          },
+          "M.2.9.E": {
+            "description": "determine a solution to a problem involving length, including estimating lengths",
+            "parents": [],
+            "children": ["M.3.7.B"]
+          },
+          "M.2.9.F": {
+            "description": "use concrete models of square units to find the area of a rectangle by covering it with no gaps or overlaps, counting to find the total number of square units, and describing the measurement using a number and the unit",
+            "parents": [],
+            "children": ["M.5.6.A"]
+          },
+          "M.2.9.G": {
+            "description": "read and write time to the nearest one-minute increment using analog and digital clocks and distinguish between a.m. and p.m.",
+            "parents": ["M.1.7.E"],
+            "children": ["M.3.7.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.10": {
+          "description": "Data analysis. The student applies mathematical process standards to organize data to make it useful for interpreting information and solving problems. The student is expected to:",
+          "M.2.10.A": {
+            "description": "explain that the length of a bar in a bar graph or the number of pictures in a pictograph represents the number of data points for a given category",
+            "parents": [],
+            "children": []
+          },
+          "M.2.10.B": {
+            "description": "organize a collection of data with up to four categories using pictographs and bar graphs with intervals of one or more",
+            "parents": ["M.1.8.B"],
+            "children": ["M.3.8.A"]
+          },
+          "M.2.10.C": {
+            "description": "write and solve one-step word problems involving addition or subtraction using data represented within pictographs and bar graphs with intervals of one",
+            "parents": [],
+            "children": ["M.3.8.B"]
+          },
+          "M.2.10.D": {
+            "description": "draw conclusions and make predictions from information in a graph",
+            "parents": ["M.1.8.C"],
+            "children": ["M.6.13.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.2.11": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.2.11.A": {
+            "description": "calculate how money saved can accumulate into a larger amount over time",
+            "parents": ["M.1.9.C"],
+            "children": ["M.3.9.E"]
+          },
+          "M.2.11.B": {
+            "description": "explain that saving is an alternative to spending",
+            "parents": [],
+            "children": ["M.3.9.C"]
+          },
+          "M.2.11.C": {
+            "description": "distinguish between a deposit and a withdrawal",
+            "parents": [],
+            "children": ["M.4.10.D"]
+          },
+          "M.2.11.D": {
+            "description": "identify examples of borrowing and distinguish between responsible and irresponsible borrowing",
+            "parents": [],
+            "children": ["M.3.9.D","M.6.14.D","M.6.14.G"]
+          },
+          "M.2.11.E": {
+            "description": "identify examples of lending and use concepts of benefits and costs to evaluate lending decisions",
+            "parents": [],
+            "children": ["M.6.14.F"]
+          },
+          "M.2.11.F": {
+            "description": "differentiate between producers and consumers and calculate the cost to produce a simple item",
+            "parents": [],
+            "children": ["M.3.9.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.3": {
+        "description": "Grade 3 Mathematics",
+        "M.3.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.3.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.3.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and compare whole numbers and understand relationships related to place value. The student is expected to:",
+          "M.3.2.A": {
+            "description": "compose and decompose numbers up to 100,000 as a sum of so many ten thousands, so many thousands, so many hundreds, so many tens, and so many ones using objects, pictorial models, and numbers, including expanded notation as appropriate",
+            "parents": [],
+            "children": ["M.4.2.B","M.8.2.C"]
+          },
+          "M.3.2.B": {
+            "description": "describe the mathematical relationships found in the base-10 place value system through the hundred thousands place",
+            "parents": [],
+            "children": ["M.4.2.A"]
+          },
+          "M.3.2.C": {
+            "description": "represent a number on a number line as being between two consecutive multiples of 10; 100; 1,000; or 10,000 and use words to describe relative size of numbers in order to round whole numbers",
+            "parents": ["M.2.2.E"],
+            "children": ["M.4.2.H"]
+          },
+          "M.3.2.D": {
+            "description": "compare and order whole numbers up to 100,000 and represent comparisons using the symbols >, <, or =",
+            "parents": ["M.2.2.D"],
+            "children": ["M.4.2.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.3": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and explain fractional units. The student is expected to:",
+          "M.3.3.A": {
+            "description": "represent fractions greater than zero and less than or equal to one with denominators of 2, 3, 4, 6, and 8 using concrete objects and pictorial models, including strip diagrams and number lines",
+            "parents": [],
+            "children": ["M.4.2.G"]
+          },
+          "M.3.3.B": {
+            "description": "determine the corresponding fraction greater than zero and less than or equal to one with denominators of 2, 3, 4, 6, and 8 given a specified point on a number line",
+            "parents": ["M.2.2.F"],
+            "children": ["M.6.2.C"]
+          },
+          "M.3.3.C": {
+            "description": "explain that the unit fraction 1/b represents the quantity formed by one part of a whole that has been partitioned into b equal parts where b is a non-zero whole number",
+            "parents": ["M.2.3.B"],
+            "children": []
+          },
+          "M.3.3.D": {
+            "description": "compose and decompose a fraction a/b with a numerator greater than zero and less than or equal to b as a sum of parts 1/b",
+            "parents": [],
+            "children": []
+          },
+          "M.3.3.E": {
+            "description": "solve problems involving partitioning an object or a set of objects among two or more recipients using pictorial representations of fractions with denominators of 2, 3, 4, 6, and 8",
+            "parents": ["M.2.3.C"],
+            "children": []
+          },
+          "M.3.3.F": {
+            "description": "represent equivalent fractions with denominators of 2, 3, 4, 6, and 8 using a variety of objects and pictorial models, including number lines",
+            "parents": [],
+            "children": []
+          },
+          "M.3.3.G": {
+            "description": "explain that two fractions are equivalent if and only if they are both represented by the same point on the number line or represent the same portion of a same size whole for an area model",
+            "parents": [],
+            "children": ["M.4.3.C"]
+          },
+          "M.3.3.H": {
+            "description": "compare two fractions having the same numerator or denominator in problems by reasoning about their sizes and justifying the conclusion using symbols, words, objects, and pictorial models",
+            "parents": [],
+            "children": ["M.4.3.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.4": {
+          "description": "Number and operations. The student applies mathematical process standards to develop and use strategies and methods for whole number computations in order to solve problems with efficiency and accuracy. The student is expected to:",
+          "M.3.4.A": {
+            "description": "solve with fluency one-step and two-step problems involving addition and subtraction within 1,000 using strategies based on place value, properties of operations, and the relationship between addition and subtraction",
+            "parents": ["M.1.3.B","M.1.3.C","M.1.3.E","M.1.3.A","M.1.3.D","M.1.3.F"],
+            "children": ["M.4.4.A"]
+          },
+          "M.3.4.B": {
+            "description": "round to the nearest 10 or 100 or use compatible numbers to estimate solutions to addition and subtraction problems",
+            "parents": [],
+            "children": ["M.4.2.D","M.4.4.G"]
+          },
+          "M.3.4.C": {
+            "description": "determine the value of a collection of coins and bills",
+            "parents": [],
+            "children": []
+          },
+          "M.3.4.D": {
+            "description": "determine the total number of objects when equally-sized groups of objects are combined or arranged in arrays up to 10 by 10",
+            "parents": ["M.2.6.A"],
+            "children": ["M.6.3.E"]
+          },
+          "M.3.4.E": {
+            "description": "represent multiplication facts by using a variety of approaches such as repeated addition, equal-sized groups, arrays, area models, equal jumps on a number line, and skip counting",
+            "parents": [],
+            "children": ["M.4.4.B"]
+          },
+          "M.3.4.F": {
+            "description": "recall facts to multiply up to 10 by 10 with automaticity and recall the corresponding division facts",
+            "parents": [],
+            "children": ["M.4.4.B"]
+          },
+          "M.3.4.G": {
+            "description": "use strategies and algorithms, including the standard algorithm, to multiply a two-digit number by a one-digit number. Strategies may include mental math, partial products, and the commutative, associative, and distributive properties",
+            "parents": [],
+            "children": []
+          },
+          "M.3.4.H": {
+            "description": "determine the number of objects in each group when a set of objects is partitioned into equal shares or a set of objects is shared equally",
+            "parents": ["M.2.6.B"],
+            "children": []
+          },
+          "M.3.4.I": {
+            "description": "determine if a number is even or odd using divisibility rules",
+            "parents": [],
+            "children": []
+          },
+          "M.3.4.J": {
+            "description": "determine a quotient using the relationship between multiplication and division",
+            "parents": [],
+            "children": ["M.6.3.A"]
+          },
+          "M.3.4.K": {
+            "description": "solve one-step and two-step problems involving multiplication and division within 100 using strategies based on objects; pictorial models, including arrays, area models, and equal groups; properties of operations; or recall of facts",
+            "parents": [],
+            "children": ["M.4.4.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.5": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to analyze and create patterns and relationships. The student is expected to:",
+          "M.3.5.A": {
+            "description": "represent one- and two-step problems involving addition and subtraction of whole numbers to 1,000 using pictorial models, number lines, and equations",
+            "parents": ["M.2.7.C"],
+            "children": ["M.4.5.A"]
+          },
+          "M.3.5.B": {
+            "description": "represent and solve one- and two-step multiplication and division problems within 100 using arrays, strip diagrams, and equations",
+            "parents": [],
+            "children": ["M.4.5.A"]
+          },
+          "M.3.5.C": {
+            "description": "describe a multiplication expression as a comparison such as 3 x 24 represents 3 times as much as 24",
+            "parents": [],
+            "children": ["M.5.4.E"]
+          },
+          "M.3.5.D": {
+            "description": "determine the unknown whole number in a multiplication or division equation relating three whole numbers when the unknown is either a missing factor or product",
+            "parents": [],
+            "children": []
+          },
+          "M.3.5.E": {
+            "description": "represent real-world relationships using number pairs in a table and verbal descriptions",
+            "parents": [],
+            "children": ["M.4.5.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.6": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to analyze attributes of two-dimensional geometric figures to develop generalizations about their properties. The student is expected to:",
+          "M.3.6.A": {
+            "description": "classify and sort two- and three-dimensional figures, including cones, cylinders, spheres, triangular and rectangular prisms, and cubes, based on attributes using formal geometric language",
+            "parents": ["M.2.8.C","M.2.8.B"],
+            "children": ["M.4.6.D"]
+          },
+          "M.3.6.B": {
+            "description": "use attributes to recognize rhombuses, parallelograms, trapezoids, rectangles, and squares as examples of quadrilaterals and draw examples of quadrilaterals that do not belong to any of these subcategories",
+            "parents": ["M.2.8.A"],
+            "children": ["M.4.6.A","M.4.6.B","M.4.6.C"]
+          },
+          "M.3.6.C": {
+            "description": "determine the area of rectangles with whole number side lengths in problems using multiplication related to the number of rows times the number of unit squares in each row",
+            "parents": [],
+            "children": ["M.5.6.B"]
+          },
+          "M.3.6.D": {
+            "description": "decompose composite figures formed by rectangles into non-overlapping rectangles to determine the area of the original figure using the additive property of area",
+            "parents": [],
+            "children": []
+          },
+          "M.3.6.E": {
+            "description": "decompose two congruent two-dimensional figures into parts with equal areas and express the area of each part as a unit fraction of the whole and recognize that equal shares of identical wholes need not have the same shape",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.7": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to select appropriate units, strategies, and tools to solve problems involving customary and metric measurement. The student is expected to:",
+          "M.3.7.A": {
+            "description": "represent fractions of halves, fourths, and eighths as distances from zero on a number line",
+            "parents": ["M.2.9.C"],
+            "children": ["M.5.8.A","M.5.8.B"]
+          },
+          "M.3.7.B": {
+            "description": "determine the perimeter of a polygon or a missing length when given perimeter and remaining side lengths in problems",
+            "parents": [],
+            "children": ["M.4.8.C"]
+          },
+          "M.3.7.C": {
+            "description": "determine the solutions to problems involving addition and subtraction of time intervals in minutes using pictorial models or tools such as a 15-minute event plus a 30-minute event equals 45 minutes",
+            "parents": ["M.2.9.G"],
+            "children": ["M.4.8.C"]
+          },
+          "M.3.7.D": {
+            "description": "determine when it is appropriate to use measurements of liquid volume (capacity) or weight",
+            "parents": ["M.K.7.A"],
+            "children": ["M.4.8.C"]
+          },
+          "M.3.7.E": {
+            "description": "determine liquid volume (capacity) or weight using appropriate units and tools",
+            "parents": ["M.K.7.A"],
+            "children": ["M.4.8.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.8": {
+          "description": "Data analysis. The student applies mathematical process standards to solve problems by collecting, organizing, displaying, and interpreting data. The student is expected to:",
+          "M.3.8.A": {
+            "description": "summarize a data set with multiple categories using a frequency table, dot plot, pictograph, or bar graph with scaled intervals",
+            "parents": ["M.2.10.B"],
+            "children": ["M.4.9.A"]
+          },
+          "M.3.8.B": {
+            "description": "solve one- and two-step problems using categorical data represented with a frequency table, dot plot, pictograph, or bar graph with scaled intervals",
+            "parents": ["M.2.10.C"],
+            "children": ["M.4.9.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.3.9": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.3.9.A": {
+            "description": "explain the connection between human capital/labor and income",
+            "parents": ["M.1.9.A"],
+            "children": ["M.4.10.A"]
+          },
+          "M.3.9.B": {
+            "description": "describe the relationship between the availability or scarcity of resources and how that impacts cost",
+            "parents": ["M.2.11.F"],
+            "children": ["M.4.10.B"]
+          },
+          "M.3.9.C": {
+            "description": "identify the costs and benefits of planned and unplanned spending decisions",
+            "parents": ["M.2.11.B"],
+            "children": ["M.7.13.F"]
+          },
+          "M.3.9.D": {
+            "description": "explain that credit is used when wants or needs exceed the ability to pay and that it is the borrower's responsibility to pay it back to the lender, usually with interest",
+            "parents": ["M.2.11.D"],
+            "children": ["M.4.10.E"]
+          },
+          "M.3.9.E": {
+            "description": "list reasons to save and explain the benefit of a savings plan, including for college",
+            "parents": ["M.2.11.A"],
+            "children": ["M.4.10.C"]
+          },
+          "M.3.9.F": {
+            "description": "identify decisions involving income, spending, saving, credit, and charitable giving",
+            "parents": ["M.1.9.D"],
+            "children": ["M.8.12.F"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.4": {
+        "description": "Grade 4 Mathematics",
+        "M.4.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.4.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.4.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent, compare, and order whole numbers and decimals and understand relationships related to place value. The student is expected to:",
+          "M.4.2.A": {
+            "description": "interpret the value of each place-value position as 10 times the position to the right and as one-tenth of the value of the place to its left",
+            "parents": ["M.3.2.B"],
+            "children": ["M.5.2.A"]
+          },
+          "M.4.2.B": {
+            "description": "represent the value of the digit in whole numbers through 1,000,000,000 and decimals to the hundredths using expanded notation and numerals",
+            "parents": ["M.5.2.A"],
+            "children": []
+          },
+          "M.4.2.C": {
+            "description": "compare and order whole numbers to 1,000,000,000 and represent comparisons using the symbols >, <, or =",
+            "parents": ["M.3.2.D"],
+            "children": ["M.5.2.B"]
+          },
+          "M.4.2.D": {
+            "description": "round whole numbers to a given place value through the hundred thousands place",
+            "parents": ["M.3.4.B"],
+            "children": ["M.5.2.C"]
+          },
+          "M.4.2.E": {
+            "description": "represent decimals, including tenths and hundredths, using concrete and visual models and money",
+            "parents": [],
+            "children": ["M.5.2.A"]
+          },
+          "M.4.2.F": {
+            "description": "compare and order decimals using concrete and visual models to the hundredths",
+            "parents": [],
+            "children": ["M.5.2.B"]
+          },
+          "M.4.2.G": {
+            "description": "relate decimals to fractions that name tenths and hundredths",
+            "parents": ["M.3.3.A"],
+            "children": ["M.6.5.C"]
+          },
+          "M.4.2.H": {
+            "description": "determine the corresponding decimal to the tenths or hundredths place of a specified point on a number line",
+            "parents": ["M.3.2.C"],
+            "children": ["M.6.2.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.3": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and generate fractions to solve problems. The student is expected to:",
+          "M.4.3.A": {
+            "description": "represent a fraction a/b as a sum of fractions 1/b, where a and b are whole numbers and b>0, including when a>b",
+            "parents": [],
+            "children": []
+          },
+          "M.4.3.B": {
+            "description": "decompose a fraction in more than one way into a sum of fractions with the same denominator using concrete and pictorial models and recording results with symbolic representations",
+            "parents": [],
+            "children": []
+          },
+          "M.4.3.C": {
+            "description": "determine if two given fractions are equivalent using a variety of methods",
+            "parents": [],
+            "children": []
+          },
+          "M.4.3.D": {
+            "description": "compare two fractions with different numerators and different denominators and represent the comparison using the symbols >, =, or <",
+            "parents": [],
+            "children": []
+          },
+          "M.4.3.E": {
+            "description": "represent and solve addition and subtraction of fractions with equal denominators using objects and pictorial models that build to the number line and properties of operations",
+            "parents": [],
+            "children": ["M.5.3.H"]
+          },
+          "M.4.3.G": {
+            "description": "represent fractions and decimals to the tenths or hundredths as distances from zero on a number line",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.4": {
+          "description": "Number and operations. The student applies mathematical process standards to develop and use strategies and methods for whole number computations and decimal sums and differences in order to solve problems with efficiency and accuracy. The student is expected to:",
+          "M.4.4.A": {
+            "description": "add and subtract whole numbers and decimals to the hundredths place using the standard algorithm",
+            "parents": ["M.3.4.A"],
+            "children": ["M.5.3.A"]
+          },
+          "M.4.4.B": {
+            "description": "determine products of a number and 10 or 100 using properties of operations and place value understandings",
+            "parents": [],
+            "children": ["M.5.3.B"]
+          },
+          "M.4.4.C": {
+            "description": "represent the product of 2 two-digit numbers using arrays, area models, or equations, including perfect squares through 15 by 15",
+            "parents": [],
+            "children": ["M.5.3.B"]
+          },
+          "M.4.4.D": {
+            "description": "use strategies and algorithms, including the standard algorithm, to multiply up to a four-digit number by a one-digit number and to multiply a two-digit number by a two-digit number. Strategies may include mental math, partial products, and the commutative, associative, and distributive properties",
+            "parents": [],
+            "children": ["M.5.3.B"]
+          },
+          "M.4.4.E": {
+            "description": "represent the quotient of up to a four-digit whole number divided by a one-digit whole number using arrays, area models, or equations",
+            "parents": ["M.3.4.K"],
+            "children": ["M.5.3.C"]
+          },
+          "M.4.4.F": {
+            "description": "use strategies and algorithms, including the standard algorithm, to divide up to a four-digit dividend by a one-digit divisor",
+            "parents": [],
+            "children": ["M.5.3.C"]
+          },
+          "M.4.4.G": {
+            "description": "round to the nearest 10, 100, or 1,000 or use compatible numbers to estimate solutions involving whole numbers",
+            "parents": ["M.3.4.B"],
+            "children": ["M.5.2.C","M.4.4.C","M.4.4.D","M.4.4.H"]
+          },
+          "M.4.4.H": {
+            "description": "solve with fluency one- and two-step problems involving multiplication and division, including interpreting remainders",
+            "parents": [],
+            "children": ["M.5.3.B","M.6.3.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.5": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to develop concepts of expressions and equations. The student is expected to:",
+          "M.4.5.A": {
+            "description": "represent multi-step problems involving the four operations with whole numbers using strip diagrams and equations with a letter standing for the unknown quantity",
+            "parents": ["M.3.5.A","M.3.5.B","M.3.5.D"],
+            "children": ["M.5.4.A","M.5.4.B"]
+          },
+          "M.4.5.B": {
+            "description": "represent problems using an input-output table and numerical expressions to generate a number pattern that follows a given rule representing the relationship of the values in the resulting sequence and their position in the sequence",
+            "parents": ["M.3.5.E"],
+            "children": ["M.5.4.C","M.5.4.D"]
+          },
+          "M.4.5.C": {
+            "description": "use models to determine the formulas for the perimeter of a rectangle (l + w + l + w or 2l+2w), including the special form for perimeter of a square (4s) and the area of a rectangle (l × w)",
+            "parents": [],
+            "children": ["M.5.4.G"]
+          },
+          "M.4.5.D": {
+            "description": "solve problems related to perimeter and area of rectangles where dimensions are whole numbers",
+            "parents": [],
+            "children": ["M.5.4.H"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.6": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to analyze geometric attributes in order to develop generalizations about their properties. The student is expected to:",
+          "M.4.6.A": {
+            "description": "identify points, lines, line segments, rays, angles, and perpendicular and parallel lines",
+            "parents": ["M.3.6.B"],
+            "children": ["M.8.3.A"]
+          },
+          "M.4.6.B": {
+            "description": "identify and draw one or more lines of symmetry, if they exist, for a two-dimensional figure",
+            "parents": ["M.3.6.B"],
+            "children": ["M.8.3.B"]
+          },
+          "M.4.6.C": {
+            "description": "apply knowledge of right angles to identify acute, right, and obtuse triangles",
+            "parents": ["M.3.6.B"],
+            "children": []
+          },
+          "M.4.6.D": {
+            "description": "classify two-dimensional figures based on the presence or absence of parallel or perpendicular lines or the presence or absence of angles of a specified size",
+            "parents": ["M.3.6.A"],
+            "children": ["M.5.5.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.7": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to solve problems involving angles less than or equal to 180 degrees. The student is expected to:",
+          "M.4.7.A": {
+            "description": "illustrate the measure of an angle as the part of a circle whose center is at the vertex of the angle that is \"cut out\" by the rays of the angle. Angle measures are limited to whole numbers",
+            "parents": [],
+            "children": []
+          },
+          "M.4.7.B": {
+            "description": "illustrate degrees as the units used to measure an angle, where 1/360 of any circle is one degree and an angle that \"cuts\" n/360 out of any circle whose center is at the angle's vertex has a measure of n degrees. Angle measures are limited to whole numbers",
+            "parents": [],
+            "children": []
+          },
+          "M.4.7.C": {
+            "description": "determine the approximate measures of angles in degrees to the nearest whole number using a protractor",
+            "parents": [],
+            "children": []
+          },
+          "M.4.7.D": {
+            "description": "draw an angle with a given measure",
+            "parents": [],
+            "children": []
+          },
+          "M.4.7.E": {
+            "description": "determine the measure of an unknown angle formed by two non-overlapping adjacent angles given one or both angle measures",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.8": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to select appropriate customary and metric units, strategies, and tools to solve problems involving measurement. The student is expected to:",
+          "M.4.8.A": {
+            "description": "identify relative sizes of measurement units within the customary and metric systems",
+            "parents": [],
+            "children": ["M.5.7.A"]
+          },
+          "M.4.8.B": {
+            "description": "convert measurements within the same measurement system, customary or metric, from a smaller unit into a larger unit or a larger unit into a smaller unit when given other equivalent measures represented in a table",
+            "parents": [],
+            "children": ["M.5.7.A"]
+          },
+          "M.4.8.C": {
+            "description": "solve problems that deal with measurements of length, intervals of time, liquid volumes, mass, and money using addition, subtraction, multiplication, or division as appropriate",
+            "parents": ["M.3.7.D","M.3.7.E","M.K.7.B"],
+            "children": ["M.8.10.D", "M.5.7.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.9": {
+          "description": "Data analysis. The student applies mathematical process standards to solve problems by collecting, organizing, displaying, and interpreting data. The student is expected to:",
+          "M.4.9.A": {
+            "description": "represent data on a frequency table, dot plot, or stem-and-leaf plot marked with whole numbers and fractions",
+            "parents": ["M.3.8.A"],
+            "children": ["M.5.9.A"]
+          },
+          "M.4.9.B": {
+            "description": "solve one- and two-step problems using data in whole number, decimal, and fraction form in a frequency table, dot plot, or stem-and-leaf plot",
+            "parents": ["M.3.8.B"],
+            "children": ["M.5.9.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.4.10": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.4.10.A": {
+            "description": "distinguish between fixed and variable expenses",
+            "parents": ["M.3.9.A"],
+            "children": ["M.5.10.A"]
+          },
+          "M.4.10.B": {
+            "description": "calculate profit in a given situation",
+            "parents": [],
+            "children": []
+          },
+          "M.4.10.C": {
+            "description": "compare the advantages and disadvantages of various savings options",
+            "parents": ["M.3.9.E"],
+            "children": ["M.7.13.E"]
+          },
+          "M.4.10.D": {
+            "description": "describe how to allocate a weekly allowance among spending; saving, including for college; and sharing",
+            "parents": ["M.2.11.C"],
+            "children": ["M.5.10.D"]
+          },
+          "M.4.10.E": {
+            "description": "describe the basic purpose of financial institutions, including keeping money safe, borrowing money, and lending",
+            "parents": ["M.3.9.D"],
+            "children": ["M.5.10.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.5": {
+        "description": "Grade 5 Mathematics",
+        "M.5.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.5.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.5.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent, compare, and order positive rational numbers and understand relationships as related to place value. The student is expected to:",
+          "M.5.2.A": {
+            "description": "represent the value of the digit in decimals through the thousandths using expanded notation and numerals",
+            "parents": ["M.4.2.A"],
+            "children": ["M.8.2.C"]
+          },
+          "M.5.2.B": {
+            "description": "compare and order two decimals to thousandths and represent comparisons using the symbols >, <, or =",
+            "parents": ["M.4.2.C", "M.4.2.F"],
+            "children": ["M.6.2.D"]
+          },
+          "M.5.2.C": {
+            "description": "round decimals to tenths or hundredths",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.3": {
+          "description": "Number and operations. The student applies mathematical process standards to develop and use strategies and methods for positive rational number computations in order to solve problems with efficiency and accuracy. The student is expected to:",
+          "M.5.3.A": {
+            "description": "estimate to determine solutions to mathematical and real-world problems involving addition, subtraction, multiplication, or division",
+            "parents": ["M.4.4.A"],
+            "children": ["M.7.3.A","M.7.3.B"]
+          },
+          "M.5.3.B": {
+            "description": "multiply with fluency a three-digit number by a two-digit number using the standard algorithm",
+            "parents": ["M.4.4.B","M.4.4.C","M.4.4.D","M.4.4.H"],
+            "children": ["M.6.3.E"]
+          },
+          "M.5.3.C": {
+            "description": "solve with proficiency for quotients of up to a four-digit dividend by a two-digit divisor using strategies and the standard algorithm",
+            "parents": ["M.4.4.E","M.4.4.F","M.4.4.H"],
+            "children": ["M.7.3.A"]
+          },
+          "M.5.3.D": {
+            "description": "represent multiplication of decimals with products to the hundredths using objects and pictorial models, including area models",
+            "parents": [],
+            "children": ["M.6.3.E"]
+          },
+          "M.5.3.E": {
+            "description": "solve for products of decimals to the hundredths, including situations involving money, using strategies based on place-value understandings, properties of operations, and the relationship to the multiplication of whole numbers",
+            "parents": [],
+            "children": ["M.6.3.E"]
+          },
+          "M.5.3.F": {
+            "description": "represent quotients of decimals to the hundredths, up to four-digit dividends and two-digit whole number divisors, using objects and pictorial models, including area models",
+            "parents": [],
+            "children": ["M.7.3.B"]
+          },
+          "M.5.3.G": {
+            "description": "solve for quotients of decimals to the hundredths, up to four-digit dividends and two-digit whole number divisors, using strategies and algorithms, including the standard algorithm",
+            "parents": [],
+            "children": ["M.7.3.B"]
+          },
+          "M.5.3.H": {
+            "description": "represent and solve addition and subtraction of fractions with unequal denominators referring to the same whole using objects and pictorial models and properties of operations",
+            "parents": ["M.4.3.E"],
+            "children": ["M.7.3.B"]
+          },
+          "M.5.3.I": {
+            "description": "represent and solve multiplication of a whole number and a fraction that refers to the same whole using objects and pictorial models, including area models",
+            "parents": [],
+            "children": ["M.6.3.E"]
+          },
+          "M.5.3.J": {
+            "description": "represent division of a unit fraction by a whole number and the division of a whole number by a unit fraction such as 1/3÷7 and 7÷1/3 using objects and pictorial models, including area models",
+            "parents": [],
+            "children": ["M.6.3.E"]
+          },
+          "M.5.3.K": {
+            "description": "add and subtract positive rational numbers fluently",
+            "parents": [],
+            "children": ["M.7.3.A"]
+          },
+          "M.5.3.L": {
+            "description": "divide whole numbers by unit fractions and unit fractions by whole numbers",
+            "parents": [],
+            "children": ["M.6.3.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.4": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to develop concepts of expressions and equations. The student is expected to:",
+          "M.5.4.A": {
+            "description": "identify prime and composite numbers",
+            "parents": ["M.4.5.A"],
+            "children": ["M.6.7.A"]
+          },
+          "M.5.4.B": {
+            "description": "represent and solve multi-step problems involving the four operations with whole numbers using equations with a letter standing for the unknown quantity",
+            "parents": ["M.4.5.A"],
+            "children": ["M.6.10.A","M.6.10.B"]
+          },
+          "M.5.4.C": {
+            "description": "generate a numerical pattern when given a rule in the form y=ax or y=x+a and graph",
+            "parents": ["M.4.5.B"],
+            "children": ["M.6.4.A"]
+          },
+          "M.5.4.D": {
+            "description": "recognize the difference between additive and multiplicative numerical patterns given in a table or graph",
+            "parents": ["M.4.5.B"],
+            "children": ["M.6.4.A"]
+          },
+          "M.5.4.E": {
+            "description": "describe the meaning of parentheses and brackets in a numeric expression",
+            "parents": ["M.3.5.C"],
+            "children": ["M.6.7.A"]
+          },
+          "M.5.4.F": {
+            "description": "simplify numerical expressions that do not involve exponents, including up to two levels of grouping",
+            "parents": [],
+            "children": []
+          },
+          "M.5.4.G": {
+            "description": "use concrete objects and pictorial models to develop the formulas for the volume of a rectangular prism, including the special form for a cube (V = l × w × h, V=s×s×s, and V=Bh)",
+            "parents": ["M.4.5.C"],
+            "children": ["M.6.5.B"]
+          },
+          "M.5.4.H": {
+            "description": "represent and solve problems related to perimeter and/or area and related to volume",
+            "parents": ["M.4.5.D"],
+            "children": ["M.6.8.C","M.6.8.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.5": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to classify two-dimensional figures by attributes and properties. The student is expected to classify two-dimensional figures in a hierarchy of sets and subsets using graphic organizers based on their attributes and properties.",
+          "parents": [],
+          "children": []
+        },
+        "M.5.6": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to understand, recognize, and quantify volume. The student is expected to:",
+          "M.5.6.A": {
+            "description": "recognize a cube with side length of one unit as a unit cube having one cubic unit of volume and the volume of a three-dimensional figure as the number of unit cubes (n cubic units) needed to fill it with no gaps or overlaps if possible",
+            "parents": ["M.2.9.F"],
+            "children": ["M.8.10.D"]
+          },
+          "M.5.6.B": {
+            "description": "determine the volume of a rectangular prism with whole number side lengths in problems related to the number of layers times the number of unit cubes in the area of the base",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.7": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to select appropriate units, strategies, and tools to solve problems involving measurement. The student is expected to solve problems by calculating conversions within a measurement system, customary or metric.",
+          "parents": [],
+          "children": []
+        },
+        "M.5.8": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to identify locations on a coordinate plane. The student is expected to:",
+          "M.5.8.A": {
+            "description": "describe the key attributes of the coordinate plane, including perpendicular number lines (axes) where the intersection (origin) of the two lines coincides with zero on each number line and the given point (0, 0); the x-coordinate, the first number in an ordered pair, indicates movement parallel to the x-axis starting at the origin; and the y-coordinate, the second number, indicates movement parallel to the y-axis starting at the origin",
+            "parents": ["M.3.7.A"],
+            "children": ["M.6.11.A"]
+          },
+          "M.5.8.B": {
+            "description": "describe the process for graphing ordered pairs of numbers in the first quadrant of the coordinate plane",
+            "parents": ["M.3.7.A"],
+            "children": []
+          },
+          "M.5.8.C": {
+            "description": "graph in the first quadrant of the coordinate plane ordered pairs of numbers arising from mathematical and real-world problems, including those generated by number patterns or found in an input-output table",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.9": {
+          "description": "Data analysis. The student applies mathematical process standards to solve problems by collecting, organizing, displaying, and interpreting data. The student is expected to:",
+          "M.5.9.A": {
+            "description": "represent categorical data with bar graphs or frequency tables and numerical data, including data sets of measurements in fractions or decimals, with dot plots or stem-and-leaf plots",
+            "parents": ["M.4.9.A"],
+            "children": ["M.6.12.A"]
+          },
+          "M.5.9.B": {
+            "description": "represent discrete paired data on a scatterplot",
+            "parents": [],
+            "children": ["M.8.11.A"]
+          },
+          "M.5.9.C": {
+            "description": "solve one- and two-step problems using data from a frequency table, dot plot, bar graph, stem-and-leaf plot, or scatterplot",
+            "parents": ["M.4.9.B"],
+            "children": ["M.6.13.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.5.10": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.5.10.A": {
+            "description": "define income tax, payroll tax, sales tax, and property tax",
+            "parents": ["M.4.10.A"],
+            "children": ["M.7.11.A"]
+          },
+          "M.5.10.B": {
+            "description": "explain the difference between gross income and net income",
+            "parents": ["M.1.9.B"],
+            "children": ["M.6.14.H"]
+          },
+          "M.5.10.C": {
+            "description": "identify the advantages and disadvantages of different methods of payment, including check, credit card, debit card, and electronic payments",
+            "parents": ["M.4.10.E"],
+            "children": ["M.6.14.B"]
+          },
+          "M.5.10.D": {
+            "description": "develop a system for keeping and using financial records",
+            "parents": ["M.4.10.D"],
+            "children": ["M.6.14.A"]
+          },
+          "M.5.10.E": {
+            "description": "describe actions that might be taken to balance a budget when expenses exceed income",
+            "parents": [],
+            "children": []
+          },
+          "M.5.10.F": {
+            "description": "balance a simple budget",
+            "parents": [],
+            "children": ["M.7.13.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.6": {
+        "description": "Grade 6 Mathematics",
+        "M.6.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.6.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.6.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and use rational numbers in a variety of forms. The student is expected to:",
+          "M.6.2.A": {
+            "description": "classify whole numbers, integers, and rational numbers using a visual representation such as a Venn diagram to describe relationships between sets of numbers",
+            "parents": [],
+            "children": ["M.7.2.A"]
+          },
+          "M.6.2.B": {
+            "description": "identify a number, its opposite, and its absolute value",
+            "parents": ["M.4.2.G"],
+            "children": []
+          },
+          "M.6.2.C": {
+            "description": "locate, compare, and order integers and rational numbers using a number line",
+            "parents": ["M.3.3.B"],
+            "children": ["M.8.2.B"]
+          },
+          "M.6.2.D": {
+            "description": "order a set of rational numbers arising from mathematical and real-world contexts",
+            "parents": ["M.5.2.B"],
+            "children": ["M.8.2.D"]
+          },
+          "M.6.2.E": {
+            "description": "extend representations for division to include fraction notation such as a/b represents the same number as a÷b where b≠0",
+            "parents": ["M.4.3.A"],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.3": {
+          "description": "Number and operations. The student applies mathematical process standards to represent addition, subtraction, multiplication, and division while solving problems and justifying solutions. The student is expected to:",
+          "M.6.3.A": {
+            "description": "recognize that dividing by a rational number and multiplying by its reciprocal result in equivalent values",
+            "parents": [],
+            "children": []
+          },
+          "M.6.3.B": {
+            "description": "determine, with and without computation, whether a quantity is increased or decreased when multiplied by a fraction, including values greater than or less than one",
+            "parents": [],
+            "children": ["M.7.3.B"]
+          },
+          "M.6.3.C": {
+            "description": "represent integer operations with concrete models and connect the actions with the models to standardized algorithms",
+            "parents": [],
+            "children": ["M.7.3.A"]
+          },
+          "M.6.3.D": {
+            "description": "add, subtract, multiply, and divide integers fluently",
+            "parents": [],
+            "children": ["M.7.3.A"]
+          },
+          "M.6.3.E": {
+            "description": "multiply and divide positive rational numbers fluently",
+            "parents": ["M.5.3.B","M.3.4.D","M.5.3.D","M.5.3.E","M.5.3.I"],
+            "children": ["M.7.3.A","M.7.3.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.4": {
+          "description": "Proportionality. The student applies mathematical process standards to develop an understanding of proportional relationships in problem situations. The student is expected to:",
+          "M.6.4.A": {
+            "description": "compare two rules verbally, numerically, graphically, and symbolically in the form of y=ax or y = x + a in order to differentiate between additive and multiplicative relationships",
+            "parents": ["M.5.4.C","M.5.4.D"],
+            "children": ["M.7.4.A","M.7.4.E"]
+          },
+          "M.6.4.B": {
+            "description": "apply qualitative and quantitative reasoning to solve prediction and comparison of real-world problems involving ratios and rates",
+            "parents": [],
+            "children": []
+          },
+          "M.6.4.C": {
+            "description": "give examples of ratios as multiplicative comparisons of two quantities describing the same attribute",
+            "parents": [],
+            "children": []
+          },
+          "M.6.4.D": {
+            "description": "give examples of rates as the comparison by division of two quantities having different attributes, including rates as quotients",
+            "parents": [],
+            "children": ["M.7.4.A"]
+          },
+          "M.6.4.E": {
+            "description": "represent ratios and percents with concrete models, fractions, and decimals",
+            "parents": [],
+            "children": []
+          },
+          "M.6.4.F": {
+            "description": "represent benchmark fractions and percents such as 1%, 10%, 25%, 33 1/3%, and multiples of these values using 10 by 10 grids, strip diagrams, number lines, and numbers",
+            "parents": [],
+            "children": ["M.7.4.D"]
+          },
+          "M.6.4.G": {
+            "description": "generate equivalent forms of fractions, decimals, and percents using real-world problems, including problems that involve money",
+            "parents": [],
+            "children": ["M.7.4.D"]
+          },
+          "M.6.4.H": {
+            "description": "convert units within a measurement system, including the use of proportions and unit rates",
+            "parents": [],
+            "children": ["M.7.4.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.5": {
+          "description": "Proportionality. The student applies mathematical process standards to solve problems involving proportional relationships. The student is expected to:",
+          "M.6.5.A": {
+            "description": "represent mathematical and real-world problems involving ratios and rates using scale factors, tables, graphs, and proportions",
+            "parents": [],
+            "children": ["M.7.4.A"]
+          },
+          "M.6.5.B": {
+            "description": "solve real-world problems to find the whole given a part and the percent, to find the part given the whole and the percent, and to find the percent given the part and the whole, including the use of concrete and pictorial models",
+            "parents": ["M.5.4.G"],
+            "children": ["M.7.8.A","M.7.4.D"]
+          },
+          "M.6.5.C": {
+            "description": "use equivalent fractions, decimals, and percents to show equal parts of the same whole",
+            "parents": [],
+            "children": ["M.7.4.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.6": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use multiple representations to describe algebraic relationships. The student is expected to:",
+          "M.6.6.A": {
+            "description": "identify independent and dependent quantities from tables and graphs",
+            "parents": [],
+            "children": ["M.7.7.A"]
+          },
+          "M.6.6.B": {
+            "description": "write an equation that represents the relationship between independent and dependent quantities from a table",
+            "parents": [],
+            "children": ["M.7.7.A"]
+          },
+          "M.6.6.C": {
+            "description": "represent a given situation using verbal descriptions, tables, graphs, and equations in the form y=kx or y=x+b",
+            "parents": [],
+            "children": ["M.7.7.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.7": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to develop concepts of expressions and equations. The student is expected to:",
+          "M.6.7.A": {
+            "description": "generate equivalent numerical expressions using order of operations, including whole number exponents and prime factorization",
+            "parents": ["M.5.4.E","M.5.4.F"],
+            "children": []
+          },
+          "M.6.7.B": {
+            "description": "distinguish between expressions and equations verbally, numerically, and algebraically",
+            "parents": [],
+            "children": []
+          },
+          "M.6.7.C": {
+            "description": "determine if two expressions are equivalent using concrete models, pictorial models, and algebraic representations",
+            "parents": [],
+            "children": []
+          },
+          "M.6.7.D": {
+            "description": "generate equivalent expressions using the properties of operations: inverse, identity, commutative, associative, and distributive properties",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.8": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use geometry to represent relationships and solve problems. The student is expected to:",
+          "M.6.8.A": {
+            "description": "extend previous knowledge of triangles and their properties to include the sum of angles of a triangle, the relationship between the lengths of sides and measures of angles in a triangle, and determining when three lengths form a triangle",
+            "parents": [],
+            "children": ["M.7.11.C"]
+          },
+          "M.6.8.B": {
+            "description": "model area formulas for parallelograms, trapezoids, and triangles by decomposing and rearranging parts of these shapes",
+            "parents": [],
+            "children": []
+          },
+          "M.6.8.C": {
+            "description": "write equations that represent problems related to the area of rectangles, parallelograms, trapezoids, and triangles and volume of right rectangular prisms where dimensions are positive rational numbers",
+            "parents": ["M.5.4.H"],
+            "children": []
+          },
+          "M.6.8.D": {
+            "description": "determine solutions for problems involving the area of rectangles, parallelograms, trapezoids, and triangles and volume of right rectangular prisms where dimensions are positive rational numbers",
+            "parents": ["M.5.4.H"],
+            "children": ["M.7.9.A","M.7.9.B","M.7.8.C","M.7.8.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.9": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use equations and inequalities to represent situations. The student is expected to:",
+          "M.6.9.A": {
+            "description": "write one-variable, one-step equations and inequalities to represent constraints or conditions within problems",
+            "parents": [],
+            "children": ["M.7.10.A"]
+          },
+          "M.6.9.B": {
+            "description": "represent solutions for one-variable, one-step equations and inequalities on number lines",
+            "parents": [],
+            "children": ["M.7.10.B"]
+          },
+          "M.6.9.C": {
+            "description": "write corresponding real-world problems given one-variable, one-step equations or inequalities",
+            "parents": [],
+            "children": ["M.7.10.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.10": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use equations and inequalities to solve problems. The student is expected to:",
+          "M.6.10.A": {
+            "description": "model and solve one-variable, one-step equations and inequalities that represent problems, including geometric concepts",
+            "parents": [],
+            "children": ["M.7.10.A"]
+          },
+          "M.6.10.B": {
+            "description": "determine if the given value(s) make(s) one-variable, one-step equations or inequalities true",
+            "parents": ["M.5.4.B"],
+            "children": ["M.7.10.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.11": {
+          "description": "Measurement and data. The student applies mathematical process standards to use coordinate geometry to identify locations on a plane. The student is expected to graph points in all four quadrants using ordered pairs of rational numbers.",
+          "parents": [],
+          "children": []
+        },
+        "M.6.12": {
+          "description": "Measurement and data. The student applies mathematical process standards to use numerical or graphical representations to analyze problems. The student is expected to:",
+          "M.6.12.A": {
+            "description": "represent numeric data graphically, including dot plots, stem-and-leaf plots, histograms, and box plots",
+            "parents": [],
+            "children": []
+          },
+          "M.6.12.B": {
+            "description": "use the graphical representation of numeric data to describe the center, spread, and shape of the data distribution",
+            "parents": [],
+            "children": ["M.7.12.A"]
+          },
+          "M.6.12.C": {
+            "description": "summarize numeric data with numerical summaries, including the mean and median (measures of center) and the range and interquartile range (IQR) (measures of spread), and use these summaries to describe the center, spread, and shape of the data distribution",
+            "parents": [],
+            "children": ["M.7.12.A"]
+          },
+          "M.6.12.D": {
+            "description": "summarize categorical data with numerical and graphical summaries, including the mode, the percent of values in each category (relative frequency table), and the percent bar graph, and use these summaries to describe the data distribution",
+            "parents": [],
+            "children": ["M.7.12.A"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.13": {
+          "description": "Measurement and data. The student applies mathematical process standards to use numerical or graphical representations to solve problems. The student is expected to:",
+          "M.6.13.A": {
+            "description": "interpret numeric data summarized in dot plots, stem-and-leaf plots, histograms, and box plots",
+            "parents": ["M.2.10.D"],
+            "children": []
+          },
+          "M.6.13.B": {
+            "description": "distinguish between situations that yield data with and without variability",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.6.14": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to develop an economic way of thinking and problem solving useful in one's life as a knowledgeable consumer and investor. The student is expected to:",
+          "M.6.14.A": {
+            "description": "compare the features and costs of a checking account and a debit card offered by different local financial institutions",
+            "parents": [],
+            "children": []
+          },
+          "M.6.14.B": {
+            "description": "distinguish between debit cards and credit cards",
+            "parents": ["M.5.10.C"],
+            "children": ["M.8.12.A"]
+          },
+          "M.6.14.C": {
+            "description": "balance a check register that includes deposits, withdrawals, and transfers",
+            "parents": [],
+            "children": []
+          },
+          "M.6.14.D": {
+            "description": "explain why it is important to establish a positive credit history",
+            "parents": ["M.2.11.D"],
+            "children": ["M.8.12.B"]
+          },
+          "M.6.14.E": {
+            "description": "describe the information in a credit report and how long it is retained",
+            "parents": [],
+            "children": ["M.8.12.E"]
+          },
+          "M.6.14.F": {
+            "description": "describe the value of credit reports to borrowers and to lenders",
+            "parents": [],
+            "children": []
+          },
+          "M.6.14.G": {
+            "description": "explain various methods to pay for college, including through savings, grants, scholarships, student loans, and work-study",
+            "parents": ["M.2.11.D"],
+            "children": []
+          },
+          "M.6.14.H": {
+            "description": "compare the annual salary of several occupations requiring various levels of post-secondary education or vocational training and calculate the effects of the different annual salaries on lifetime income",
+            "parents": ["M.5.10.B"],
+            "children": ["M.8.12.G"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.7": {
+        "description": "Grade 7 Mathematics",
+        "M.7.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.7.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.7.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and use rational numbers in a variety of forms. The student is expected to extend previous knowledge of sets and subsets using a visual representation to describe relationships between sets of rational numbers.",
+          "parents": [],
+          "children": []
+        },
+        "M.7.3": {
+          "description": "Number and operations. The student applies mathematical process standards to add, subtract, multiply, and divide while solving problems and justifying solutions. The student is expected to:",
+          "M.7.3.A": {
+            "description": "add, subtract, multiply, and divide rational numbers fluently",
+            "parents": [],
+            "children": []
+          },
+          "M.7.3.B": {
+            "description": "apply and extend previous understandings of operations to solve problems using addition, subtraction, multiplication, and division of rational numbers",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.4": {
+          "description": "Proportionality. The student applies mathematical process standards to represent and solve problems involving proportional relationships. The student is expected to:",
+          "M.7.4.A": {
+            "description": "represent constant rates of change in mathematical and real-world problems given pictorial, tabular, verbal, numeric, graphical, and algebraic representations, including d=rt",
+            "parents": [],
+            "children": []
+          },
+          "M.7.4.B": {
+            "description": "calculate unit rates from rates in mathematical and real-world problems",
+            "parents": [],
+            "children": []
+          },
+          "M.7.4.C": {
+            "description": "determine the constant of proportionality (k=y/x) within mathematical and real-world problems",
+            "parents": [],
+            "children": []
+          },
+          "M.7.4.D": {
+            "description": "solve problems involving ratios, rates, and percents, including multi-step problems involving percent increase and percent decrease, and financial literacy problems",
+            "parents": [],
+            "children": []
+          },
+          "M.7.4.E": {
+            "description": "convert between measurement systems, including the use of proportions and the use of unit rates",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.5": {
+          "description": "Proportionality. The student applies mathematical process standards to use geometry to describe or solve problems involving proportional relationships. The student is expected to:",
+          "M.7.5.A": {
+            "description": "generalize the critical attributes of similarity, including ratios within and between similar shapes",
+            "parents": [],
+            "children": []
+          },
+          "M.7.5.B": {
+            "description": "describe π as the ratio of the circumference of a circle to its diameter",
+            "parents": [],
+            "children": []
+          },
+          "M.7.5.C": {
+            "description": "solve mathematical and real-world problems involving similar shape and scale drawings",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.6": {
+          "description": "Proportionality. The student applies mathematical process standards to use probability and statistics to describe or solve problems involving proportional relationships. The student is expected to:",
+          "M.7.6.A": {
+            "description": "represent sample spaces for simple and compound events using lists and tree diagrams",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.B": {
+            "description": "select and use different simulations to represent simple and compound events with and without technology",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.C": {
+            "description": "make predictions and determine solutions using experimental data for simple and compound events",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.D": {
+            "description": "make predictions and determine solutions using theoretical probability for simple and compound events",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.E": {
+            "description": "find the probabilities of a simple event and its complement and describe the relationship between the two",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.F": {
+            "description": "use data from a random sample to make inferences about a population",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.G": {
+            "description": "solve problems using data represented in bar graphs, dot plots, and circle graphs, including part-to-whole and part-to-part comparisons and equivalents",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.H": {
+            "description": "solve problems using qualitative and quantitative predictions and comparisons from simple experiments",
+            "parents": [],
+            "children": []
+          },
+          "M.7.6.I": {
+            "description": "determine experimental and theoretical probabilities related to simple and compound events using data and sample spaces",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.7": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to represent linear relationships using multiple representations. The student is expected to represent linear relationships using verbal descriptions, tables, graphs, and equations that simplify to the form y=mx+b.",
+          "parents": [],
+          "children": []
+        },
+        "M.7.8": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to develop geometric relationships with volume. The student is expected to:",
+          "M.7.8.A": {
+            "description": "model the relationship between the volume of a rectangular prism and a rectangular pyramid having both congruent bases and heights and connect that relationship to the formulas",
+            "parents": ["M.6.8.B"],
+            "children": ["M.8.6.A"]
+          },
+          "M.7.8.B": {
+            "description": "explain verbally and symbolically the relationship between the volume of a triangular prism and a triangular pyramid having both congruent bases and heights and connect that relationship to the formulas",
+            "parents": [],
+            "children": ["M.8.6.B"]
+          },
+          "M.7.8.C": {
+            "description": "use models to determine the approximate formulas for the circumference and area of a circle and connect the models to the actual formulas",
+            "parents": [],
+            "children": ["M.8.6.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.9": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to solve geometric problems. The student is expected to:",
+          "M.7.9.A": {
+            "description": "solve problems involving the volume of rectangular prisms, triangular prisms, rectangular pyramids, and triangular pyramids",
+            "parents": ["M.6.8.D"],
+            "children": ["M.8.7.A"  ]
+          },
+          "M.7.9.B": {
+            "description": "determine the circumference and area of circles",
+            "parents": [],
+            "children": []
+          },
+          "M.7.9.C": {
+            "description": "determine the area of composite figures containing combinations of rectangles, squares, parallelograms, trapezoids, triangles, semicircles, and quarter circles",
+            "parents": [],
+            "children": []
+          },
+          "M.7.9.D": {
+            "description": "solve problems involving the lateral and total surface area of a rectangular prism, rectangular pyramid, triangular prism, and triangular pyramid by determining the area of the shape's net",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.10": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use one-variable equations and inequalities to represent situations. The student is expected to:",
+          "M.7.10.A": {
+            "description": "write one-variable, two-step equations and inequalities to represent constraints or conditions within problems",
+            "parents": ["M.6.9.A"],
+            "children": ["M.8.8.A","M.8.8.C"]
+          },
+          "M.7.10.B": {
+            "description": "represent solutions for one-variable, two-step equations and inequalities on number lines",
+            "parents": ["M.6.10.B"],
+            "children": ["M.8.9.A"]
+          },
+          "M.7.10.C": {
+            "description": "write a corresponding real-world problem given a one-variable, two-step equation or inequality",
+            "parents": ["M.6.9.C"],
+            "children": ["M.8.8.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.11": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to solve one-variable equations and inequalities. The student is expected to:",
+          "M.7.11.A": {
+            "description": "model and solve one-variable, two-step equations and inequalities",
+            "parents": ["M.5.10.A"],
+            "children": []
+          },
+          "M.7.11.B": {
+            "description": "determine if the given value(s) make(s) one-variable, two-step equations and inequalities true",
+            "parents": [],
+            "children": []
+          },
+          "M.7.11.C": {
+            "description": "write and solve equations using geometry concepts, including the sum of the angles in a triangle, and angle relationships",
+            "parents": ["M.6.8.A"],
+            "children": ["M.8.8.D"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.12": {
+          "description": "Measurement and data. The student applies mathematical process standards to use statistical representations to analyze data. The student is expected to:",
+          "M.7.12.A": {
+            "description": "compare two groups of numeric data using comparative dot plots or box plots by comparing their shapes, centers, and spreads",
+            "parents": ["M.6.12.B","M.6.12.C","M.6.12.D"],
+            "children": ["M.8.11.B"]
+          },
+          "M.7.12.B": {
+            "description": "use data from a random sample to make inferences about a population",
+            "parents": [],
+            "children": ["M.8.11.C"]
+          },
+          "M.7.12.C": {
+            "description": "compare two populations based on data in random samples from these populations, including informal comparative inferences about differences between the two populations",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.7.13": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to develop an economic way of thinking and problem solving useful in one's life as a knowledgeable consumer and investor. The student is expected to:",
+          "M.7.13.A": {
+            "description": "calculate the sales tax for a given purchase and calculate income tax for earned wages",
+            "parents": [],
+            "children": []
+          },
+          "M.7.13.B": {
+            "description": "identify the components of a personal budget, including income; planned savings for college, retirement, and emergencies; taxes; and fixed and variable expenses, and calculate what percentage each category comprises of the total budget",
+            "parents": [],
+            "children": []
+          },
+          "M.7.13.C": {
+            "description": "create and organize a financial assets and liabilities record and construct a net worth statement",
+            "parents": [],
+            "children": []
+          },
+          "M.7.13.D": {
+            "description": "use a family budget estimator to determine the minimum household budget and average hourly wage needed for a family to meet its basic needs in the student's city or another large city nearby",
+            "parents": [],
+            "children": []
+          },
+          "M.7.13.E": {
+            "description": "calculate and compare simple interest and compound interest earnings",
+            "parents": ["M.4.10.C"],
+            "children": ["M.8.12.D"]
+          },
+          "M.7.13.F": {
+            "description": "analyze and compare monetary incentives, including sales, rebates, and coupons",
+            "parents": ["M.3.9.C"],
+            "children": ["M.8.12.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.8": {
+        "description": "Grade 8 Mathematics",
+        "M.8.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.8.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.8.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.2": {
+          "description": "Number and operations. The student applies mathematical process standards to represent and use real numbers in a variety of forms. The student is expected to:",
+          "M.8.2.A": {
+            "description": "extend previous knowledge of sets and subsets using a visual representation to describe relationships between sets of real numbers",
+            "parents": ["M.7.2.A"],
+            "children": []
+          },
+          "M.8.2.B": {
+            "description": "approximate the value of an irrational number, including π and square roots of numbers less than 225, and locate that rational number approximation on a number line",
+            "parents": ["M.6.2.C"],
+            "children": []
+          },
+          "M.8.2.C": {
+            "description": "convert between standard decimal notation and scientific notation",
+            "parents": [],
+            "children": []
+          },
+          "M.8.2.D": {
+            "description": "order a set of real numbers arising from mathematical and real-world contexts",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.3": {
+          "description": "Proportionality. The student applies mathematical process standards to use proportional relationships to describe dilations. The student is expected to:",
+          "M.8.3.A": {
+            "description": "generalize that the ratio of corresponding sides of similar shapes are proportional, including a shape and its dilation",
+            "parents": [],
+            "children": []
+          },
+          "M.8.3.B": {
+            "description": "compare and contrast the attributes of a shape and its dilation(s) on a coordinate plane",
+            "parents": [],
+            "children": []
+          },
+          "M.8.3.C": {
+            "description": "use an algebraic representation to explain the effect of a given positive rational scale factor applied to two-dimensional figures on a coordinate plane with the origin as the center of dilation",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.4": {
+          "description": "Proportionality. The student applies mathematical process standards to explain proportional and non-proportional relationships involving slope. The student is expected to:",
+          "M.8.4.A": {
+            "description": "use similar right triangles to develop an understanding that slope, m, given as the rate comparing the change in y-values to the change in x-values, (y2−y1)/(x2−x1), is the same for any two points (x1,y1) and (x2,y2) on the same line",
+            "parents": [],
+            "children": []
+          },
+          "M.8.4.B": {
+            "description": "graph proportional relationships, interpreting the unit rate as the slope of the line that models the relationship",
+            "parents": [],
+            "children": []
+          },
+          "M.8.4.C": {
+            "description": "use data from a table or graph to determine the rate of change or slope and y-intercept in mathematical and real-world problems",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.5": {
+          "description": "Proportionality. The student applies mathematical process standards to use proportional and non-proportional relationships to develop foundational concepts of functions. The student is expected to:",
+          "M.8.5.A": {
+            "description": "represent linear proportional situations with tables, graphs, and equations in the form of y=kx",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.B": {
+            "description": "represent linear non-proportional situations with tables, graphs, and equations in the form of y=mx+b, where b≠0",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.C": {
+            "description": "contrast bivariate sets of data that suggest a linear relationship with bivariate sets of data that do not suggest a linear relationship from a graphical representation",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.D": {
+            "description": "use a trend line that approximates the linear relationship between bivariate sets of data to make predictions",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.E": {
+            "description": "solve problems involving direct variation",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.F": {
+            "description": "distinguish between proportional and non-proportional situations using tables, graphs, and equations in the form y=kx or y=mx+b, where b≠0",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.G": {
+            "description": "identify functions using sets of ordered pairs, tables, mappings, and graphs",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.H": {
+            "description": "identify examples of proportional and non-proportional functions that arise from mathematical and real-world problems",
+            "parents": [],
+            "children": []
+          },
+          "M.8.5.I": {
+            "description": "write an equation in the form y=mx+b to model a linear relationship between two quantities using verbal, numerical, tabular, and graphical representations",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.6": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to develop mathematical relationships and make connections to geometric formulas. The student is expected to:",
+          "M.8.6.A": {
+            "description": "describe the volume formula V=Bh of a cylinder in terms of its base area and its height",
+            "parents": [],
+            "children": []
+          },
+          "M.8.6.B": {
+            "description": "model the relationship between the volume of a cylinder and a cone having both congruent bases and heights and connect that relationship to the formulas",
+            "parents": [],
+            "children": []
+          },
+          "M.8.6.C": {
+            "description": "use models and diagrams to explain the Pythagorean theorem",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.7": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use geometry to solve problems. The student is expected to:",
+          "M.8.7.A": {
+            "description": "solve problems involving the volume of cylinders, cones, and spheres",
+            "parents": [],
+            "children": []
+          },
+          "M.8.7.B": {
+            "description": "use previous knowledge of surface area to make connections to the formulas for lateral and total surface area and determine solutions for problems involving rectangular prisms, triangular prisms, and cylinders",
+            "parents": [],
+            "children": []
+          },
+          "M.8.7.C": {
+            "description": "use the Pythagorean Theorem and its converse to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.8.7.D": {
+            "description": "determine the distance between two points on a coordinate plane using the Pythagorean Theorem",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.8": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use one-variable equations or inequalities in problem situations. The student is expected to:",
+          "M.8.8.A": {
+            "description": "write one-variable equations or inequalities with variables on both sides that represent problems using rational number coefficients and constants",
+            "parents": [],
+            "children": []
+          },
+          "M.8.8.B": {
+            "description": "write a corresponding real-world problem when given a one-variable equation or inequality with variables on both sides of the equal sign using rational number coefficients and constants",
+            "parents": [],
+            "children": []
+          },
+          "M.8.8.C": {
+            "description": "model and solve one-variable equations with variables on both sides of the equal sign that represent mathematical and real-world problems using rational number coefficients and constants",
+            "parents": [],
+            "children": []
+          },
+          "M.8.8.D": {
+            "description": "use informal arguments to establish facts about the angle sum and exterior angle of triangles, the angles created when parallel lines are cut by a transversal, and the angle-angle criterion for similarity of triangles",
+            "parents": ["M.7.11.C"],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.9": {
+          "description": "Expressions, equations, and relationships. The student applies mathematical process standards to use multiple representations to develop foundational concepts of simultaneous linear equations. The student is expected to identify and verify the values of x and y that simultaneously satisfy two linear equations in the form y=mx+b from the intersections of the graphed equations.",
+          "parents": [],
+          "children": []
+        },
+        "M.8.10": {
+          "description": "Two-dimensional shapes. The student applies mathematical process standards to develop transformational geometry concepts. The student is expected to:",
+          "M.8.10.A": {
+            "description": "generalize the properties of orientation and congruence of rotations, reflections, translations, and dilations of two-dimensional shapes on a coordinate plane",
+            "parents": [],
+            "children": []
+          },
+          "M.8.10.B": {
+            "description": "differentiate between transformations that preserve congruence and those that do not",
+            "parents": [],
+            "children": []
+          },
+          "M.8.10.C": {
+            "description": "explain the effect of translations, reflections over the x- or y-axis, and rotations limited to 90°, 180°, 270°, and 360° as applied to two-dimensional shapes on a coordinate plane using an algebraic representation",
+            "parents": [],
+            "children": []
+          },
+          "M.8.10.D": {
+            "description": "model the effect on linear and area measurements of dilated two-dimensional shapes",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.11": {
+          "description": "Measurement and data. The student applies mathematical process standards to use statistical procedures to describe data. The student is expected to:",
+          "M.8.11.A": {
+            "description": "construct a scatterplot and describe the observed data to address questions of association such as linear, non-linear, and no association between bivariate data",
+            "parents": [],
+            "children": []
+          },
+          "M.8.11.B": {
+            "description": "determine the mean absolute deviation and use this quantity as a measure of the average distance data are from the mean using a data set of no more than 10 data points",
+            "parents": [],
+            "children": []
+          },
+          "M.8.11.C": {
+            "description": "simulate generating random samples of the same size from a population with known characteristics to develop the notion of a random sample being representative of the population from which it was selected",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.8.12": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to develop an economic way of thinking and problem solving useful in one's life as a knowledgeable consumer and investor. The student is expected to:",
+          "M.8.12.A": {
+            "description": "solve real-world problems comparing how interest rate and loan length affect the cost of credit",
+            "parents": [],
+            "children": []
+          },
+          "M.8.12.B": {
+            "description": "calculate the total cost of repaying a loan, including credit cards and easy access loans, under various rates of interest and over different periods using an online calculator",
+            "parents": [],
+            "children": []
+          },
+          "M.8.12.C": {
+            "description": "explain how small amounts of money invested regularly, including money saved for college and retirement, grow over time",
+            "parents": ["M.7.13.F"],
+            "children": []
+          },
+          "M.8.12.D": {
+            "description": "calculate and compare simple interest and compound interest earnings",
+            "parents": ["M.7.13.E"],
+            "children": []
+          },
+          "M.8.12.E": {
+            "description": "identify and explain the advantages and disadvantages of different payment methods",
+            "parents": [],
+            "children": []
+          },
+          "M.8.12.F": {
+            "description": "analyze situations to determine if they represent financially responsible decisions and identify the benefits of financial responsibility and the costs of financial irresponsibility",
+            "parents": [],
+            "children": []
+          },
+          "M.8.12.G": {
+            "description": "estimate the cost of a two-year and four-year college education, including family contribution, and devise a periodic savings plan for accumulating the money needed to contribute to the total cost of attendance for at least the first year of college",
+            "parents": ["M.6.14.H"],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "M.K": {
+        "description": "Kindergarten Mathematics",
+        "M.K.1": {
+          "description": "Mathematical process standards. The student uses mathematical processes to acquire and demonstrate mathematical understanding. The student is expected to:",
+          "M.K.1.A": {
+            "description": "apply mathematics to problems arising in everyday life, society, and the workplace",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.B": {
+            "description": "use a problem-solving model that incorporates analyzing given information, formulating a plan or strategy, determining a solution, justifying the solution, and evaluating the problem-solving process and the reasonableness of the solution",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.C": {
+            "description": "select tools, including real objects, manipulatives, paper and pencil, and technology as appropriate, and techniques, including mental math, estimation, and number sense as appropriate, to solve problems",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.D": {
+            "description": "communicate mathematical ideas, reasoning, and their implications using multiple representations, including symbols, diagrams, graphs, and language as appropriate",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.E": {
+            "description": "create and use representations to organize, record, and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.F": {
+            "description": "analyze mathematical relationships to connect and communicate mathematical ideas",
+            "parents": [],
+            "children": []
+          },
+          "M.K.1.G": {
+            "description": "display, explain, and justify mathematical ideas and arguments using precise mathematical language in written or oral communication",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.2": {
+          "description": "Number and operations. The student applies mathematical process standards to understand how to represent and compare whole numbers, the relative position and magnitude of whole numbers, and relationships within the numeration system. The student is expected to:",
+          "M.K.2.A": {
+            "description": "count forward and backward to at least 20 with and without objects",
+            "parents": [],
+            "children": []
+          },
+          "M.K.2.B": {
+            "description": "read, write, and represent whole numbers from 0 to at least 20 with and without objects or pictures",
+            "parents": [],
+            "children": []
+          },
+          "M.K.2.C": {
+            "description": "count a set of objects up to at least 20 and demonstrate that the last number said tells the number of objects in the set regardless of their arrangement or order",
+            "parents": [],
+            "children": []
+          },
+          "M.K.2.D": {
+            "description": "recognize instantly the quantity of a small group of objects in organized and random arrangements",
+            "children": ["M.1.2.A"],
+            "parents": []
+          },
+          "M.K.2.E": {
+            "description": "generate a set using concrete and pictorial models that represents a number that is more than, less than, and equal to a given number up to 20",
+            "parents": [],
+            "children": []
+          },
+          "M.K.2.F": {
+            "description": "generate a number that is one more than or one less than another number up to at least 20",
+            "children": [
+              "M.1.2.D"
+            ],
+            "parents": []
+          },
+          "M.K.2.G": {
+            "description": "compare sets of objects up to at least 20 in each set using comparative language",
+            "parents": [],
+            "children": ["M.1.2.E"]
+          },
+          "M.K.2.H": {
+            "description": "use comparative language to describe two numbers up to 20 presented as written numerals",
+            "parents": [],
+            "children": ["M.1.2.E"]
+          },
+          "M.K.2.I": {
+            "description": "compose and decompose numbers up to 10 with objects and pictures",
+            "parents": [],
+            "children": []
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.3": {
+          "description": "Number and operations. The student applies mathematical process standards to develop an understanding of addition and subtraction situations in order to solve problems. The student is expected to:",
+          "M.K.3.A": {
+            "description": "model the action of joining to represent addition and the action of separating to represent subtraction",
+            "parents": [],
+            "children": ["M.1.3.B"]
+          },
+          "M.K.3.B": {
+            "description": "solve word problems using objects and drawings to find sums up to 10 and differences within 10",
+            "parents": [],
+            "children": ["M.1.3.C"]
+          },
+          "M.K.3.C": {
+            "description": "explain the strategies used to solve problems involving adding and subtracting within 10 using spoken words, concrete and pictorial models, and number sentences",
+            "parents": [],
+            "children": ["M.1.3.E"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.4": {
+          "description": "Number and operations. The student applies mathematical process standards to identify coins in order to recognize the need for monetary transactions. The student is expected to identify U.S. coins by name, including pennies, nickels, dimes, and quarters.",
+          "parents": [],
+          "children": []
+        },
+        "M.K.5": {
+          "description": "Algebraic reasoning. The student applies mathematical process standards to identify the pattern in the number word list. The student is expected to recite numbers up to at least 100 by ones and tens beginning with any given number.",
+          "parents": [],
+          "children": []
+        },
+        "M.K.6": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to analyze attributes of two-dimensional shapes and three-dimensional solids to develop generalizations about their properties. The student is expected to:",
+          "M.K.6.A": {
+            "description": "identify two-dimensional shapes, including circles, triangles, rectangles, and squares as special rectangles",
+            "parents": [],
+            "children": ["M.1.6.C"]
+          },
+          "M.K.6.B": {
+            "description": "identify three-dimensional solids, including cylinders, cones, spheres, and cubes, in the real world",
+            "parents": [],
+            "children": []
+          },
+          "M.K.6.C": {
+            "description": "identify two-dimensional components of three-dimensional objects",
+            "parents": [],
+            "children": []
+          },
+          "M.K.6.D": {
+            "description": "identify attributes of two-dimensional shapes using informal and formal geometric language interchangeably",
+            "parents": [],
+            "children": ["M.1.6.D"]
+          },
+          "M.K.6.E": {
+            "description": "classify and sort a variety of regular and irregular two- and three-dimensional figures regardless of orientation or size",
+            "parents": [],
+            "children": ["M.1.6.A"]
+          },
+          "M.K.6.F": {
+            "description": "create two-dimensional shapes using a variety of materials and drawings",
+            "parents": [],
+            "children": ["M.1.6.F"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.7": {
+          "description": "Geometry and measurement. The student applies mathematical process standards to directly compare measurable attributes. The student is expected to:",
+          "M.K.7.A": {
+            "description": "give an example of a measurable attribute of a given object, including length, capacity, and weight",
+            "parents": [],
+            "children": ["M.3.7.D","M.3.7.E","M.1.7.A"]
+          },
+          "M.K.7.B": {
+            "description": "compare two objects with a common measurable attribute to see which object has more of/less of the attribute and describe the difference",
+            "parents": [],
+            "children": ["M.4.8.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.8": {
+          "description": "Data analysis. The student applies mathematical process standards to collect and organize data to make it useful for interpreting information. The student is expected to:",
+          "M.K.8.A": {
+            "description": "collect, sort, and organize data into two or three categories",
+            "parents": [],
+            "children": ["M.1.8.A"]
+          },
+          "M.K.8.B": {
+            "description": "use data to create real-object and picture graphs",
+            "parents": [],
+            "children": ["M.1.8.B"]
+          },
+          "M.K.8.C": {
+            "description": "draw conclusions from real-object and picture graphs",
+            "parents": [],
+            "children": ["M.1.8.C"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "M.K.9": {
+          "description": "Personal financial literacy. The student applies mathematical process standards to manage one's financial resources effectively for lifetime financial security. The student is expected to:",
+          "M.K.9.A": {
+            "description": "identify ways to earn income",
+            "parents": [],
+            "children": ["M.1.9.A"]
+          },
+          "M.K.9.B": {
+            "description": "differentiate between money received as income and money received as gifts",
+            "parents": [],
+            "children": []
+          },
+          "M.K.9.C": {
+            "description": "list simple skills required for jobs",
+            "parents": [],
+            "children": []
+          },
+          "M.K.9.D": {
+            "description": "distinguish between wants and needs and identify income as a source to meet one's wants and needs",
+            "parents": [],
+            "children": ["M.1.9.B"]
+          },
+          "parents": [],
+          "children": []
+        },
+        "parents": [],
+        "children": []
+      },
+      "parents": [],
+      "children": []
+    },
+    "parents": [],
+    "children": []
+  }
+}
