@@ -1,5 +1,5 @@
 // Gate overlay — React component positioned over the canvas
-// Timer starts from banked time. Timeout or wrong = game over.
+// Fixed timer duration. Timeout or wrong = game over.
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import katex from 'katex';
@@ -7,7 +7,7 @@ import 'katex/dist/katex.min.css';
 
 interface GateOverlayProps {
   visible: boolean;
-  gateTime: number; // banked time — this is the timer duration
+  gateTime: number; // fixed timer duration in seconds
   onAnswer: (correct: boolean, timeRemaining: number) => void;
   question: ProtoQuestion;
   resolving: boolean;
@@ -140,13 +140,6 @@ export function GateOverlay({
             {Math.ceil(timeLeft)}
           </text>
         </svg>
-      )}
-
-      {/* Banked time label */}
-      {!resolving && (
-        <div style={{ position: 'absolute', top: 16, left: 78, fontSize: 12, opacity: 0.6 }}>
-          Banked: {gateTime.toFixed(1)}s
-        </div>
       )}
 
       {/* Question */}

@@ -1,4 +1,4 @@
-// Canvas runner — double jump, fast-fall, time bank economy, orb trails
+// Canvas runner — double jump, fast-fall, orb trails, fixed gate timer
 // Prototype: colored shapes, no sprites. Focus on FEEL.
 
 import { CONFIG } from './config';
@@ -18,7 +18,7 @@ interface Orb {
   phase: number;
   collected: boolean; collectTimer: number;
   zone: 'high' | 'mid' | 'low';
-  timeValue: number;
+  scoreValue: number;
 }
 
 interface Obstacle {
@@ -40,12 +40,8 @@ interface RunnerState {
   action: CharacterAction;
   jumpVelocity: number;
   jumpsUsed: number;     // 0 = on ground, 1 = single jumped, 2 = double jumped
-  duckTime: number;
   fastFalling: boolean;
   invincibleTime: number;
-
-  // Time bank
-  timeBank: number;
 
   // World
   orbs: Orb[];
@@ -60,7 +56,7 @@ interface RunnerState {
   frameCount: number; fpsAccum: number; fps: number;
   worldTime: number;
 
-  // Time bank popup texts
+  // Popup texts
   popups: Array<{ x: number; y: number; text: string; color: string; life: number }>;
 }
 
@@ -75,23 +71,16 @@ const inputState = { jumpPressed: false, duckPressed: false, duckHeld: false };
 
 let onGateActive: (() => void) | null = null;
 let onFpsUpdate: ((fps: number) => void) | null = null;
-let onOrbCollected: ((total: number) => void) | null = null;
-let onTimeBankChanged: ((bank: number) => void) | null = null;
+let onOrbCollected: ((total: number, score: number) => void) | null = null;
 
 export function setCallbacks(callbacks: {
   onGateActive?: () => void;
   onFpsUpdate?: (fps: number) => void;
-  onOrbCollected?: (total: number) => void;
-  onTimeBankChanged?: (bank: number) => void;
+  onOrbCollected?: (total: number, score: number) => void;
 }) {
   onGateActive = callbacks.onGateActive ?? null;
   onFpsUpdate = callbacks.onFpsUpdate ?? null;
   onOrbCollected = callbacks.onOrbCollected ?? null;
-  onTimeBankChanged = callbacks.onTimeBankChanged ?? null;
-}
-
-export function getTimeBank(): number {
-  return state?.timeBank ?? 0;
 }
 
 // ---- Input ----
@@ -181,8 +170,7 @@ export function initRunner(canvasEl: HTMLCanvasElement) {
     characterY: baseY, characterBaseY: baseY,
     bobPhase: 0, tilt: 0,
     action: 'run', jumpVelocity: 0, jumpsUsed: 0,
-    duckTime: 0, fastFalling: false, invincibleTime: 0,
-    timeBank: CONFIG.TIME_BANK_START,
+    fastFalling: false, invincibleTime: 0,
     orbs: [], obstacles: [], particles: [],
     orbSpawnTimer: 1.0, obstacleSpawnTimer: 2.0,
     orbsCollected: 0,
@@ -269,16 +257,14 @@ function processPlayerInput(dt: number) {
     }
   }
 
-  // DUCK
-  if (inputState.duckPressed) {
-    inputState.duckPressed = false;
-
-    if (!isAirborne) {
-      // Ground duck/slide
+  // DUCK — hold to stay ducked, release to stand
+  if (!isAirborne && inputState.duckHeld) {
+    if (state.action !== 'duck') {
       state.action = 'duck';
-      state.duckTime = CONFIG.DUCK_DURATION;
       spawnSparks(4, '#f1c40f');
     }
+  } else if (state.action === 'duck' && !inputState.duckHeld) {
+    state.action = 'run';
   }
 
   // Fast-fall: hold duck while airborne
@@ -301,14 +287,6 @@ function processPlayerInput(dt: number) {
       state.fastFalling = false;
       if (state.jumpVelocity > 200) spawnDust(4, '#aaa'); // heavier landing = more dust
       spawnDust(3, '#aaa');
-    }
-  }
-
-  // Duck timer
-  if (state.action === 'duck') {
-    state.duckTime -= dt;
-    if (state.duckTime <= 0) {
-      state.action = 'run';
     }
   }
 
@@ -361,9 +339,6 @@ function updateRunning(dt: number) {
   scrollParallax(dt, state.speedMultiplier);
   processPlayerInput(dt);
 
-  // Passive time accrual
-  addTimeBank(CONFIG.TIME_BANK_BASE_RATE * dt);
-
   // Gate interval
   state.gateTimer += dt;
   const interval = state.gatesTriggered === 0 ? CONFIG.GATE_INTERVAL_FIRST : CONFIG.GATE_INTERVAL;
@@ -406,7 +381,6 @@ function updateApproaching(dt: number) {
 
   scrollParallax(dt, state.speedMultiplier);
   processPlayerInput(dt);
-  addTimeBank(CONFIG.TIME_BANK_BASE_RATE * dt);
   updateOrbs(dt, CONFIG.BASE_SPEED * state.speedMultiplier);
   updateObstacles(dt, CONFIG.BASE_SPEED * state.speedMultiplier);
   updateStars(dt);
@@ -433,18 +407,6 @@ function updateAtGateSpeed(dt: number) {
     state.jumpsUsed = 0;
   }
   state.tilt *= 0.95;
-}
-
-// ---- Time bank ----
-
-function addTimeBank(amount: number) {
-  state.timeBank = Math.min(CONFIG.TIME_BANK_MAX, state.timeBank + amount);
-  onTimeBankChanged?.(state.timeBank);
-}
-
-function drainTimeBank(amount: number) {
-  state.timeBank = Math.max(0, state.timeBank - amount);
-  onTimeBankChanged?.(state.timeBank);
 }
 
 function spawnPopup(x: number, y: number, text: string, color: string) {
@@ -474,19 +436,19 @@ function spawnOrbTrail() {
   const spacing = 45;
 
   let baseHeight: number;
-  let timeVal: number;
+  let scoreVal: number;
   switch (zone) {
     case 'low':
       baseHeight = 15 + Math.random() * 20;
-      timeVal = CONFIG.ORB_TIME_LOW;
+      scoreVal = CONFIG.ORB_SCORE_LOW;
       break;
     case 'mid':
       baseHeight = CONFIG.ZONE_LOW_TOP + 10 + Math.random() * 30;
-      timeVal = CONFIG.ORB_TIME_MID;
+      scoreVal = CONFIG.ORB_SCORE_MID;
       break;
     case 'high':
       baseHeight = CONFIG.ZONE_MID_TOP + 10 + Math.random() * 30;
-      timeVal = CONFIG.ORB_TIME_HIGH;
+      scoreVal = CONFIG.ORB_SCORE_HIGH;
       break;
   }
 
@@ -501,7 +463,7 @@ function spawnOrbTrail() {
       y, baseY: y,
       phase: Math.random() * Math.PI * 2,
       collected: false, collectTimer: 0,
-      zone, timeValue: timeVal,
+      zone, scoreValue: scoreVal,
     });
   }
 }
@@ -531,13 +493,12 @@ function updateOrbs(dt: number, scrollSpeed: number) {
       orb.collected = true;
       orb.collectTimer = 0.25;
       state.orbsCollected++;
-      onOrbCollected?.(state.orbsCollected);
 
-      // Add time
-      addTimeBank(orb.timeValue);
-      const label = `+${orb.timeValue.toFixed(1)}s`;
+      // Score popup
+      const label = `+${orb.scoreValue}`;
       const col = orb.zone === 'high' ? '#64b5f6' : orb.zone === 'low' ? '#81c784' : '#ffd700';
       spawnPopup(orb.x, orb.y - 15, label, col);
+      onOrbCollected?.(state.orbsCollected, orb.scoreValue);
 
       // Burst
       for (let p = 0; p < 6; p++) {
@@ -571,8 +532,8 @@ function spawnObstacle() {
   let obs: Obstacle;
   switch (type) {
     case 'barrier_top':
-      // Hangs from top into mid zone — duck to avoid
-      obs = { x: W + 20, y: groundY - CONFIG.ZONE_MID_TOP - 40, width: 50, height: CONFIG.ZONE_MID_TOP + 40 - CONFIG.ZONE_LOW_TOP + 5, type, passed: false, hit: false };
+      // Hangs from top down to ~20px above ground — must duck to avoid
+      obs = { x: W + 20, y: 0, width: 50, height: groundY - 20, type, passed: false, hit: false };
       break;
     case 'barrier_bot':
       // Ground obstacle, ~35px tall — single jump clears it
@@ -583,8 +544,8 @@ function spawnObstacle() {
       obs = { x: W + 20, y: groundY - 55, width: 22, height: 55, type, passed: false, hit: false };
       break;
     case 'hovering':
-      // Floats at mid zone — duck on ground OR jump over with double jump
-      obs = { x: W + 20, y: groundY - CONFIG.ZONE_MID_TOP + 5, width: 40, height: 30, type, passed: false, hit: false };
+      // Floats at head height — duck on ground OR jump over
+      obs = { x: W + 20, y: groundY - 45, width: 40, height: 30, type, passed: false, hit: false };
       break;
   }
   state.obstacles.push(obs);
@@ -636,9 +597,8 @@ function updateObstacles(dt: number, scrollSpeed: number) {
 }
 
 function hitCharacter(hitX: number, hitY: number) {
-  drainTimeBank(CONFIG.OBSTACLE_TIME_PENALTY);
   state.invincibleTime = CONFIG.HIT_INVINCIBLE;
-  spawnPopup(hitX, hitY - 20, `-${CONFIG.OBSTACLE_TIME_PENALTY.toFixed(1)}s`, '#e74c3c');
+  spawnPopup(hitX, hitY - 20, `HIT!`, '#e74c3c');
 
   // Shake + particles
   state.shakeDecay = 0.3;
@@ -790,9 +750,6 @@ function render() {
 
   ctx.restore();
 
-  // HUD (not shaken)
-  drawTimeBankBar(ctx, W);
-
   // Debug
   ctx.fillStyle = '#00ff00';
   ctx.font = '11px monospace';
@@ -808,50 +765,6 @@ function render() {
     ctx.fillText('↑ / Space = Jump (x2)     ↓ / S = Duck / Fast-fall', W / 2, H - 16);
     ctx.textAlign = 'start';
   }
-}
-
-// ---- Time bank bar ----
-
-function drawTimeBankBar(ctx: CanvasRenderingContext2D, W: number) {
-  const barX = 60;
-  const barY = 26;
-  const barW = W - 130;
-  const barH = 14;
-  const frac = state.timeBank / CONFIG.TIME_BANK_MAX;
-
-  // Background
-  ctx.fillStyle = '#1a1a2e';
-  ctx.strokeStyle = '#444';
-  ctx.lineWidth = 1;
-  ctx.fillRect(barX, barY, barW, barH);
-  ctx.strokeRect(barX, barY, barW, barH);
-
-  // Fill — color shifts from red → yellow → green
-  let barColor: string;
-  if (frac < 0.25) barColor = '#e74c3c';
-  else if (frac < 0.5) barColor = '#f39c12';
-  else barColor = '#2ecc71';
-
-  ctx.fillStyle = barColor;
-  ctx.fillRect(barX + 1, barY + 1, (barW - 2) * frac, barH - 2);
-
-  // Glow when high
-  if (frac > 0.6) {
-    ctx.shadowColor = barColor;
-    ctx.shadowBlur = 6;
-    ctx.fillRect(barX + 1, barY + 1, (barW - 2) * frac, barH - 2);
-    ctx.shadowColor = 'transparent';
-    ctx.shadowBlur = 0;
-  }
-
-  // Label
-  ctx.fillStyle = '#fff';
-  ctx.font = 'bold 11px system-ui';
-  ctx.fillText('⏱', barX - 16, barY + 12);
-  ctx.font = '11px monospace';
-  ctx.textAlign = 'right';
-  ctx.fillText(`${state.timeBank.toFixed(1)}s`, barX + barW + 30, barY + 12);
-  ctx.textAlign = 'start';
 }
 
 // ---- Draw helpers ----

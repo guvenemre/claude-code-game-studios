@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState, useCallback } from 'react';
 import { CONFIG } from './config';
 import { getState, transitionTo, onStateChange, resetState } from './state';
-import { initRunner, startLoop, stopLoop, setCallbacks, triggerBoost, setupInput, teardownInput, getTimeBank } from './runner';
+import { initRunner, startLoop, stopLoop, setCallbacks, triggerBoost, setupInput, teardownInput } from './runner';
 import { GateOverlay, PROTO_QUESTIONS, type ProtoQuestion } from './GateOverlay';
 
 export default function App() {
@@ -19,8 +19,6 @@ export default function App() {
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [orbs, setOrbs] = useState(0);
-  const [timeBank, setTimeBank] = useState<number>(CONFIG.TIME_BANK_START);
-  const [gateTime, setGateTime] = useState(0); // time available for current gate
   const [gameOver, setGameOver] = useState(false);
   const [finalStats, setFinalStats] = useState<{ score: number; gates: number; orbs: number } | null>(null);
   const questionIdx = useRef(0);
@@ -56,16 +54,12 @@ export default function App() {
         const q = PROTO_QUESTIONS[questionIdx.current % PROTO_QUESTIONS.length];
         questionIdx.current++;
         setCurrentQuestion(q);
-        // Gate timer = current time bank
-        const banked = getTimeBank();
-        setGateTime(banked);
         setGateVisible(true);
         setResolving(false);
         setResolveCorrect(null);
       },
       onFpsUpdate: (f) => setFps(f),
-      onOrbCollected: (total) => setOrbs(total),
-      onTimeBankChanged: (bank) => setTimeBank(bank),
+      onOrbCollected: (total, orbScore) => { setOrbs(total); setScore((s) => s + orbScore); },
     });
     setupInput();
     startLoop();
@@ -86,7 +80,7 @@ export default function App() {
 
     if (correct) {
       // Score: base × speed_bonus × streak_multiplier
-      const speedBonus = gateTime > 0 ? timeRemaining / gateTime : 0;
+      const speedBonus = CONFIG.GATE_TIMER_DURATION > 0 ? timeRemaining / CONFIG.GATE_TIMER_DURATION : 0;
       const newStreak = Math.min(streak + 1, CONFIG.MAX_STREAK_MULTIPLIER);
       const gateScore = Math.floor(CONFIG.BASE_GATE_SCORE * (0.5 + speedBonus * 0.5) * newStreak);
       setScore((s) => s + gateScore);
@@ -114,7 +108,7 @@ export default function App() {
         });
       }, CONFIG.GATE_RESOLVE_DURATION * 1000);
     }
-  }, [streak, gateTime, score, gateCount, orbs]);
+  }, [streak, score, gateCount, orbs]);
 
   // Start
   const handleStart = () => transitionTo('RUNNING');
@@ -131,7 +125,6 @@ export default function App() {
     setStreak(0);
     setGateCount(0);
     setOrbs(0);
-    setTimeBank(CONFIG.TIME_BANK_START);
     setGameOver(false);
     setFinalStats(null);
     questionIdx.current = 0;
@@ -142,15 +135,12 @@ export default function App() {
           const q = PROTO_QUESTIONS[questionIdx.current % PROTO_QUESTIONS.length];
           questionIdx.current++;
           setCurrentQuestion(q);
-          const banked = getTimeBank();
-          setGateTime(banked);
           setGateVisible(true);
           setResolving(false);
           setResolveCorrect(null);
         },
         onFpsUpdate: (f) => setFps(f),
-        onOrbCollected: (total) => setOrbs(total),
-        onTimeBankChanged: (bank) => setTimeBank(bank),
+        onOrbCollected: (total, orbScore) => { setOrbs(total); setScore((s) => s + orbScore); },
       });
       setupInput();
       startLoop();
@@ -169,7 +159,6 @@ export default function App() {
         <span>Streak: {streak}x</span>
         <span>Orbs: {orbs}</span>
         <span>Gates: {gateCount}</span>
-        <span>Bank: {timeBank.toFixed(1)}s</span>
         <span>FPS: {fps}</span>
       </div>
 
@@ -183,7 +172,7 @@ export default function App() {
         {/* Gate overlay */}
         <GateOverlay
           visible={gateVisible}
-          gateTime={gateTime}
+          gateTime={CONFIG.GATE_TIMER_DURATION}
           onAnswer={handleAnswer}
           question={currentQuestion}
           resolving={resolving}
@@ -199,7 +188,7 @@ export default function App() {
           }}>
             <h1 style={{ fontSize: 32, margin: '0 0 6px' }}>JetRun</h1>
             <p style={{ fontSize: 13, opacity: 0.6, margin: '0 0 6px' }}>
-              Collect orbs for thinking time. Dodge obstacles. Answer the math.
+              Collect orbs for points. Dodge obstacles. Answer the math.
             </p>
             <p style={{ fontSize: 11, opacity: 0.4, margin: '0 0 20px' }}>
               ↑ / Space = Jump (x2) &nbsp;&nbsp; ↓ / S = Duck / Fast-fall
@@ -245,7 +234,7 @@ export default function App() {
         }}>Reset</button>
         <span style={{ marginLeft: 12 }}>
           Gate every {CONFIG.GATE_INTERVAL_FIRST}s / {CONFIG.GATE_INTERVAL}s
-          &nbsp;·&nbsp; Time bank: orbs add, obstacles subtract, gate uses it
+          &nbsp;·&nbsp; {CONFIG.GATE_TIMER_DURATION}s per gate &nbsp;·&nbsp; Orbs = score
         </span>
       </div>
     </div>

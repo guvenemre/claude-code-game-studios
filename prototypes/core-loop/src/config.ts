@@ -18,6 +18,9 @@ export const CONFIG = {
   GATE_APPROACH_DURATION: 1.5,
   GATE_RESOLVE_DURATION: 1.2,
 
+  // Gate timer
+  GATE_TIMER_DURATION: 15, // fixed seconds per gate (GDD default)
+
   // Visual
   GATE_BACKDROP_OPACITY: 0.6,
   TIMER_WARNING_THRESHOLD: 3,
@@ -33,7 +36,6 @@ export const CONFIG = {
   DOUBLE_JUMP_VELOCITY: -340,
   GRAVITY: 1100,           // px/s²
   FAST_FALL_GRAVITY: 3300, // 3x gravity when duck pressed in air
-  DUCK_DURATION: 0.35,
   DUCK_SQUISH: 0.6,       // vertical scale when ducking
 
   // Character zones (px above ground line)
@@ -42,18 +44,16 @@ export const CONFIG = {
   ZONE_MID_TOP: 95,        // mid: 50-95px — single jump peak
   ZONE_HIGH_TOP: 145,      // high: 95-145px — double jump peak
 
-  // Time bank
-  TIME_BANK_BASE_RATE: 0.5, // seconds of time earned per second of running
-  TIME_BANK_START: 5.0,     // starting bank
-  TIME_BANK_MAX: 25.0,      // cap
-  ORB_TIME_LOW: 0.5,        // green orb
-  ORB_TIME_MID: 1.0,        // gold orb
-  ORB_TIME_HIGH: 2.0,       // blue orb
-  OBSTACLE_TIME_PENALTY: 2.0,
+  // Orb score values
+  ORB_SCORE_LOW: 10,        // green orb
+  ORB_SCORE_MID: 25,        // gold orb
+  ORB_SCORE_HIGH: 50,       // blue orb
+
+  // Hit
   HIT_INVINCIBLE: 0.6,
 
   // Scoring
   BASE_GATE_SCORE: 100,
   MAX_STREAK_MULTIPLIER: 5,
-  TIME_BONUS_PER_SECOND: 10, // end-of-run bonus for leftover bank
+  TIME_BONUS_PER_SECOND: 10, // end-of-run bonus for remaining gate time
 } as const;
